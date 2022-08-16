@@ -1,0 +1,64 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tabs-nav li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    border-bottom: 1px solid #dae0e6;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 5px 10px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.tabs-nav li.active {
+    border-bottom: 2px solid #434eea;
+}
+
+.tab-title{
+    font-size: 30px;
+    width: 365px;
+    flex-shrink: 0;
+    line-height: 1.63;
+    margin-right: 68px;
+    letter-spacing: 0.34px;
+    color: #17217b;
+    font-weight: 800;
+    text-align: left;
+}
+
+.svg {
+    pointer-events: auto
+}
+
+@media (min-width: 1200px) {.tabs-nav li {
+    font-size: 22px;
+    padding-bottom: 24px;
+} .tabs-nav {
+    margin: 0 0 60px;
+    text-align: left;
+}
+}
+
