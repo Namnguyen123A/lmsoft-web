@@ -37,6 +37,14 @@ a{
     border-bottom: 2px solid #434eea;
 }
 
+.services-info-list {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-right: -30px;
+    min-height: 700px;
+}
+
 .tab-title{
     font-size: 30px;
     width: 365px;

@@ -1,3 +1,5 @@
+import img from '../../assets/img/img1.svg'
+
 export const DATA_SERVICES = [
     {
         src: 'https://riseapps.co/wp-content/uploads/2020/09/web_upd.svg',

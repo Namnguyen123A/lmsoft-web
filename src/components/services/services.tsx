@@ -28,8 +28,8 @@ export default function Services(props: IServicesProps) {
               <div className="tab-title">We build successful, long-lasting, profitable products for our clients and can help you with your projects </div>
             </div>
               <div className="tabs-info">
-                <div className="services-info">
-                <div className="services-info-list collapse-list">
+                <div className="services-info" >
+                <div className="services-info-list" style={{display: 'flex', width: '100%'}}>
                                     {
                                         DATA_SERVICES.map((item, index) => {
                                             return <ServicesItem key={index} item={item} />
