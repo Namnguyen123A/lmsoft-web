@@ -17,14 +17,12 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/home"></Link>
             </li>
             <li>
-              <Link to="/recruitment">recruitment</Link>
+              <Link to="/recruitment"></Link>
             </li>
-            <li>
-              <Link to="/about-us">About us</Link>
-            </li>
+
           </ul>
         </nav>
           <Switch>
