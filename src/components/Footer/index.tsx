@@ -61,28 +61,28 @@ export default function Footer (props: IFooterProps) {
               </div>
             </div>
           </div>
+        
+            <div className="right">
+              <div className="contacts">
+                <address>
+                  <p>1295 Tadsworth Terrace #5330, Lake Mary, FL 32746, United States</p>
+                  <p>Kaupmehe tn 7-120, 10114, Kesklinna linnaosa, Harju maakond, Tallinn, Estonia</p>
+                </address>
 
-          <div className="right">
-            <div className="contacts">
-              <address>
-                <p>1295 Tadsworth Terrace #5330, Lake Mary, FL 32746, United States</p>
-                <p>Kaupmehe tn 7-120, 10114, Kesklinna linnaosa, Harju maakond, Tallinn, Estonia</p>
-              </address>
-
-              <div className="contact-email">
-                <a href="">biz@riseapps.biz</a>
+                <div className="contact-email">
+                  <a href="">biz@riseapps.biz</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="footer-bottom">
-          <div className="bottom-left"></div>
-          <div className="bottom-right">
-            <p className="copy">2022 © Riseapps. All rights reserved.</p>
-            <p><a href="" className="privacy-link" target="_self">Privacy Policy</a></p>
+          <div className="footer-bottom">
+            <div className="bottom-left"></div>
+              <div className="bottom-right">
+                <p className="copy">2022 © Riseapps. All rights reserved.</p>
+                <p><a href="" className="privacy-link" target="_self">Privacy Policy</a></p>
+            </div>
           </div>
-        </div>
 
       </div>
     </footer>
