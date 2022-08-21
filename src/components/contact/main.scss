@@ -1,0 +1,178 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-contacts-us {
+    max-width: 570px;
+    //margin-top: 43px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.form {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.title-contact {
+    display: block;
+    color: #18227B;
+    letter-spacing: -.2px;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+// form input
+
+.form-contacts-total {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.form-contacts-row {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-contacts .group {
+    margin-bottom: 0 !important;
+}
+
+.form-contacts .lg {
+
+}
+
+.form-contacts {
+    padding: 0 10px 24px;
+}
+
+.group {
+    position: relative;
+    width: 100%;
+}
+
+.form-contacts-wrap {
+    padding: 0 !important;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+.form-full {
+    padding: 0 !important;
+    margin: 0;
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color:#18227B;
+}
+
+.form-contacts-input-one {
+    border: 1px solid #18227B;
+    border-radius: 4px;
+    height: 52px;
+    padding: 0 16px;
+    color: #18227B;
+    font-size: 15px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.form-contacts-input {
+    border: 1px solid #18227B;
+    border-radius: 4px;
+    height: 52px;
+    padding: 0 16px;
+    color: #18227B;
+    font-size: 15px;
+    width: 100%;
+}
+
+.input-group {
+    display: block;
+    color: #18227B;
+    font-size: 15px;
+    left: 16px;
+    top: 19px;
+    position: absolute;
+    transition: all .3s ease;
+    //z-index: -1;
+}
+
+.botton-valid {
+    width: 50%;
+}
+
+
+.form-contacts-input-three {
+    border: 1px solid #18227B;
+    border-radius: 4px;
+    min-height: 52px;
+    max-height: 150px;
+    padding: 16px 16px;
+    color: #18227B;
+    font-size: 15px;
+    line-height: 20px;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.email {
+    padding-right: 16px;
+}
+
+//botton
+
+.form-contacts-col {
+    width:50%;
+    padding: 0 10px 24px;
+    padding-bottom: 0 !important;
+}
+
+.form-contacts-col a {
+    transition: color 0.4s;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.checkbox {
+    margin: 0;
+    display: block;
+    cursor: pointer;
+}
+
+.form-control {
+    margin-top: 5px;
+}
+
+.confir-one {
+    padding: 0 0 0 10px;
+}
+
+.send-btn {
+    background-color: #434eea;
+    color: white;
+    border-radius: 4px;
+    width: 275px;
+    display: block;
+    height: 70px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+}
