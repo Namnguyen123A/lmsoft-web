@@ -2,6 +2,7 @@
 import "./App.css";
 import HomePage from "./pages/home";
 import Recruitment from "./pages/recruitment";
+import About from "./pages/about";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,16 +14,16 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
+      <div>
         <nav>
           <ul>
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/home"></Link>
             </li>
             <li>
-              <Link to="/recruitment">recruitment</Link>
+              <Link to="/recruitment"></Link>
             </li>
-
+            <Link to="/about"></Link>
           </ul>
         </nav>
           <Switch>
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/recruitment">
               <Recruitment />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
           </Switch>
         </div>

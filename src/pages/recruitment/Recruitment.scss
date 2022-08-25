@@ -1,0 +1,156 @@
+.recuitment__container {
+    margin: 250px 382px 0px 382px;
+}
+
+.heading__box h1 {
+    margin: 0px 0px 41px;
+    color: rgb(20, 0, 57);
+    text-align: center;
+    font-size: 40px;
+}
+
+.search__jobs {
+    margin: 0px 0px 50px 0px;
+    padding: 18px 65px 32px 65px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 16px 36px 0px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+.search__jobs-action {
+    display: flex;
+}
+
+.search__jobs-input {
+    padding: 16px 14px 16px 14px;
+    width: 320px;
+    height: 100%;
+    margin-right: 15px;
+    border: 1px solid rgba(153, 153, 153, 1);
+    font-size: 20px;
+}
+
+.select__level {
+    padding: 16px 14px 16px 14px;
+    width: 207px;
+    margin-right: 15px;
+    border: 1px solid rgba(153, 153, 153, 1);
+    font-size: 20px;
+
+}
+
+.select__location {
+    padding: 16px 14px 16px 14px;
+    width: 207px;
+    margin-right: 15px;
+    border: 1px solid rgba(153, 153, 153, 1);
+    font-size: 20px;
+
+}
+
+.search__jobs-btn {
+    width: 54px;
+    height: 54px;
+    background: rgba(255, 111, 0, 1);
+    padding: 6px 8px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.hiring__title {
+    font-size: 24px;
+    color: #140039;
+    margin-bottom: 22px;
+}
+
+.hiring__jobs-container {
+    width: 807px;
+    height: 93px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 16px 36px 0px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin: 0px 0px 20px;
+    padding: 0px 42px 0px 20px;
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hiring__infor {
+    display: flex;
+}
+
+.hiring_heading {
+    padding-top: 15px;
+    // line-height: 27px;
+}
+
+.location, .date, .cost{
+    margin-right: 20px;
+}
+
+.uplly {
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    color: rgba(255, 111, 0, 1);
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+margin-left: 329px;
+}
+
+.arrow-left {
+    width: 30px;
+    height: 30px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.arrow-left:hover {
+    opacity: 0.8;
+}
+
+.arrow-1 {
+    width: 30px;
+    height: 30px;
+    background-color: #333333;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-right: 8px;
+    position: relative;
+
+}
+.arrow-1:hover {
+    opacity: 0.8;
+}
+
+.one {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.arrow-right {
+    width: 30px;
+    height: 30px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.arrow-right:hover {
+    opacity: 0.8;
+}
+
+
