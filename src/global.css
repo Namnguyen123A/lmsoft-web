@@ -59,6 +59,9 @@ a{
 .tabs-nav li.active {
     border-bottom: 2px solid #434eea;
 }
+.tabs-nav {
+    margin-top: 130px;
+}
 
 .services-info-list {
     -webkit-box-pack: start;
@@ -341,7 +344,7 @@ mark {
     transform: translateY(0);
 }
 .services-info-list .item {
-    width: 220px;
+    width: 207px;
     margin: 0 32px 55px 0;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
@@ -521,6 +524,14 @@ mark {
     position: absolute;
     right: 20px;
     bottom: 0;
+}
+
+.digital-info .features-info-list ul {
+text-align: center;
+}
+
+.bottom {
+    text-align: center;
 }
 .digital-info .features-info-list ul {
     display: -webkit-box;
