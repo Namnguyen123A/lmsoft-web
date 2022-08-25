@@ -45,23 +45,8 @@ h1 {
     letter-spacing: -.25px;
 }
 
-.mouse-icon {
-    width: 120px;
-    height: 64px;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
+.features {
+    text-align: center;
+    color: #8492a8;
+    margin-bottom: 50px;
 }
-
-.mouse {
-    width: 21px;
-    height: 32px;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    -webkit-animation: MoveUpDown 1.5s linear infinite;
-    animation: MoveUpDown 1.5s linear infinite;
-}
-
