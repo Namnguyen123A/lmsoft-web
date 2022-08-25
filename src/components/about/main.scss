@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.info {
+.info-about {
     width: 100%;
     max-width: 543px;
     margin: 0 auto;
@@ -48,5 +48,240 @@ h1 {
 .features {
     text-align: center;
     color: #8492a8;
+    // margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+// .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     position: relative;
+//     padding-left: 20px;
+//     padding-right: 20px;
+// }
+
+.features .image .animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.features .images {
+    max-width: 540px;
+    margin-bottom: 42px;
+    transition: opacity .5s ease-out, transform .5s ease-out, -webkit-transform .5s ease-out;
+    margin: 0 auto 30px;
+}
+
+.features .images img {
+    display: block;
+    margin: 0 auto;
+}
+
+.girl {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+img {
+    max-width: 100%;
+}
+
+.features .h2 .animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.features .h2 {
+    font-size: 57px;
     margin-bottom: 50px;
+    transition: opacity .5s ease-out, transform .5s ease-out, -webkit-transform .5s ease-out;
+}
+
+.h2 {
+    letter-spacing: -.1px;
+}
+
+.features-list {
+    margin: 0 -50px;
+    font-size: 24px;
+    letter-spacing: -.1px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.features-list .animated > * {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.features-list > *:first-child {
+    transition-delay: .2s;
+}
+
+.features-list li {
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 33.33%;
+    margin-bottom: 10px;
+    transition: opacity .5s ease-out, transform .5s ease-out, -webkit-transform .5s ease-out;
+}
+
+.our-way h2 {
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: -.5px;
+    margin-bottom: 102px;
+    transition: opacity .5s ease-out, transform .5s ease-out, -webkit-transform .5s ease-out;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    color: #18227b;
+    display: block;
+}
+
+.our-way h2 .animated {
+    opacity: .15;
+    visibility: visible;
+    transform: translateY(0);
+
+}
+
+.photo-box {
+    margin-bottom: 120px;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.top-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.photo-box .decription {
+    width: 46%;
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: -.1px;
+}
+
+.photo-box .decription.animated > * {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.photo-box .decription > *:first-child {
+    transition-delay: .2s;
+}
+
+.photo-box .h2 {
+    margin-bottom: 30px;
+}
+
+.photo-box .decription > * {
+    transition: opacity .4s ease-out, transform .4s ease-out, -webkit-transform .4s ease-out;
+}
+
+.h2 {
+    line-height: 1.25;
+    font-weight: normal;
+    color: #18227b;
+    display: block;
+    font-size: 56px;
+    letter-spacing: -.1px;
+}
+
+.photos-box .description > *:nth-child(2) {
+    transition-delay: .4s;
+}
+
+.photo-box .description p {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: -.1px;
+}
+
+
+.images-holder {
+    width: 49%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+
+.images {
+    display: inline-block;
+    vertical-align: top;
+    height: 420px;
+    max-width: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    width: 100%;
+}
+
+.images-holder-button {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.images-one {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    height: 420px;
+    max-width: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.images-two {
+    width: 23.5%;
+    display: inline-block;
+    vertical-align: top;
+    height: 420px;
+    max-width: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.images-three {
+    width: 23.5%;
+    display: inline-block;
+    vertical-align: top;
+    height: 420px;
+    max-width: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
 }

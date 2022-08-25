@@ -1,5 +1,6 @@
 import * as React from 'react';
 import "./main.scss";
+import imageContact from "../../assets/268410702_126450523171485_6358762214526324696_n-removebg-preview.png"
 export interface IContact {
 }
 
@@ -102,6 +103,9 @@ export default function contact (props: IContact) {
                         </div>
                     </form>
                 </div>
+            </div>
+            <div className="image-contact">
+                <img src={imageContact} alt="" />
             </div>
         </div>
     </div>

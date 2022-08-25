@@ -177,3 +177,36 @@ p {
     font-weight: 700;
     padding-bottom: 3px;
 }
+
+.image-contact {
+    width: 530px;
+    bottom: 0px;
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    right: 20px;
+    margin: 0;
+}
+
+.image-contact img {
+    height: 800px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.image-contact:after {
+    transform: translate(-50%, -85%);
+    margin-left: 10px;
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

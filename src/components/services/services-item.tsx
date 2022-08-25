@@ -20,10 +20,10 @@ export default function ServicesItem(props:any) {
             <a className='svg' href={href} target="_blank" rel="noreferrer">
                 <div className="icon-holder">
                     <img alt=""
-                        data-src={src}
+                        data-src={src} 
                         className="lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
-                            src={src}
+                            src={src} 
                             alt="" /></noscript>
                 </div>
 
@@ -32,7 +32,7 @@ export default function ServicesItem(props:any) {
                 {href &&
                     <span className="learn">
                         Learn more
-                        <LearnMore />
+                        <LearnMore style={{width: '8px', paddingLeft: '5px'}}/>
                     </span>}
             </a>
         </div>

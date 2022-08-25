@@ -15,6 +15,7 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -39,5 +40,27 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type='text/javascript'
+        src='https://riseapps.co/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js'
+        id='smush-lazy-load-js'></script>
+    <script data-cfasync="false"
+                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="application/ld+json">
+               {
+                    "@context": "https://schema.org",
+                    "@type": "VideoObject",
+                    "name": "promo-short-mute-compressed",
+                    "description": "Video about company",
+                    "thumbnailUrl": "https://riseapps.co/wp-content/uploads/2020/07/img-5.jpg",
+                    "uploadDate": "2020-03-31 14:41:57",
+                    "contentUrl": "https://riseapps.co/wp-content/uploads/2020/03/promo-short-mute-compressed.mp4"
+                }
+    </script>
+    <script>
+        (() => {
+            var ref = document.referrer;
+            document.getElementById("cntctus_channel").value = ref;
+        })();
+    </script>
   </body>
 </html>

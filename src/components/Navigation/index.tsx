@@ -33,7 +33,7 @@ export default function Navigation (props: INavigationProps) {
           </li>
 
           <li className="nav-item">
-            <a href="/recruitment">Recruitment</a>
+            <Link to="/recruitment">Recruitment</Link>
           </li>
 
           <li className="nav-item">
