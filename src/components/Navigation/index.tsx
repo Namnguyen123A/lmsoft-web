@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import './style.scss'
 import logo from'../../assets/LM Software-04.jpg'
+import { Link } from 'react-router-dom';
 export interface INavigationProps {
 }
 
@@ -18,9 +19,9 @@ export default function Navigation (props: INavigationProps) {
       <div className="container">
         <strong className="logo">
 
-          <a href="">
+          <Link to="/home">
             <img src={logo}></img>
-          </a>
+          </Link>
         </strong>
         <ul className="add-menu">
           <li className="nav-item">
@@ -32,7 +33,7 @@ export default function Navigation (props: INavigationProps) {
           </li>
 
           <li className="nav-item">
-            <a href="">Industries</a>
+            <a href="/recruitment">Recruitment</a>
           </li>
 
           <li className="nav-item">
@@ -44,7 +45,7 @@ export default function Navigation (props: INavigationProps) {
           </li>
 
           <li className="nav-item">
-            <a href="">About Us</a>
+            <Link to="/about">About Us</Link>
           </li>
 
         </ul>
