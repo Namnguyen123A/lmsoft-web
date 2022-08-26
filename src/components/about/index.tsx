@@ -67,7 +67,6 @@ export default function about (props: IAboutProps) {
                   <div className="images-three" style={{backgroundImage: `url(${workthree})`}}></div>
                 </div> */}
               </div>
-
                 <div className="images-holder-button animate animated">
                   <div className="images-one talk" style={{backgroundImage: `url(${workone})`}}></div>
                   <div className="images-two" style={{backgroundImage: `url(${worktwo})`}}></div>
