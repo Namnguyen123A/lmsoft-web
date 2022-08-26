@@ -3,25 +3,25 @@ import img from '../../assets/img/img1.svg'
 export const DATA_SERVICES = [
     {
         src: 'https://riseapps.co/wp-content/uploads/2020/09/web_upd.svg',
-        href: 'https://riseapps.co/web-development-services/',
+        href: '#',
         title: 'Web Development',
         description: 'Receive full-cycle web development services from a draft idea to a ready-to-use website, backed by top technologies.',
     },
     {
         src: 'https://riseapps.co/wp-content/uploads/2020/09/mobile_upd.svg',
-        href: 'https://riseapps.co/custom-mobile-app-development-services/',
+        href: '#',
         title: 'Mobile Development',
         description: 'Reach your users on their favorite devices with native and cross-platform development, supported by best industry practices.',
     },
     {
         src: 'https://riseapps.co/wp-content/uploads/2020/09/ux_upd.svg',
-        href: 'https://riseapps.co/ui-ux-design/',
+        href: '#',
         title: 'UX/UI Design',
         description: 'Translate your vision into an immersive live app with our UI and UX design services to achieve your business goals.',
     },
     {
         src: 'https://riseapps.co/wp-content/uploads/2020/09/qa_upd.svg',
-        href: 'https://riseapps.co/software-testing-qa/',
+        href: '#',
         title: 'Quality Assurance',
         description: 'Our it software development company offers manual testing or unit testing, making sure your app performs correctly.',
     },
@@ -50,7 +50,7 @@ export const DATA_TECHNOLOGIES = [
                 title: 'Kotlin'
             },
             {
-                href: 'https://riseapps.co/swift-application-development/',
+                href: '#',
                 title: 'Swift'
             }
         ]
@@ -60,11 +60,11 @@ export const DATA_TECHNOLOGIES = [
         title: 'Cross-Platform Development',
         items: [
             {
-                href: 'https://riseapps.co/flutter-development-company/',
+                href: '#',
                 title: 'Flutter'
             },
             {
-                href: 'https://riseapps.co/react-native-development-services/',
+                href: '#',
                 title: 'React Native'
             }
         ]
@@ -74,15 +74,15 @@ export const DATA_TECHNOLOGIES = [
         title: 'Front-End Development',
         items: [
             {
-                href: 'https://riseapps.co/vuejs-development-services/',
+                href: '#',
                 title: 'Vue.JS'
             },
             {
-                href: 'https://riseapps.co/reactjs-development-services/',
+                href: '#',
                 title: 'React.JS'
             },
             {
-                href: 'https://riseapps.co/nodejs-development-services/',
+                href: '#',
                 title: 'Node.JS'
             }
         ]
@@ -92,19 +92,19 @@ export const DATA_TECHNOLOGIES = [
         title: 'Back-End Development',
         items: [
             {
-                href: 'https://riseapps.co/django-development-company/',
+                href: '#',
                 title: 'Django'
             },
             {
-                href: 'https://riseapps.co/laravel-development-company/',
+                href: '#',
                 title: 'Laravel'
             },
             {
-                href: 'https://riseapps.co/python-development-company/',
+                href: '#',
                 title: 'Python'
             },
             {
-                href: 'https://riseapps.co/asp-net-development-services/',
+                href: '#',
                 title: 'ASP.NET'
             }
         ]

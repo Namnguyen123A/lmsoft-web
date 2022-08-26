@@ -106,10 +106,6 @@ a{
     display: block;
 }
 
-/* .section.slides {
-    height: 465.5px;
-} */
-
 .tags li {
     display: inline-block;
     vertical-align: middle;
@@ -375,7 +371,6 @@ mark {
 .image img {
     margin: 0 auto;
     max-height: 560px;
-    margin-top: 10px
 }
 .tags li {
     font-size: 18px;
@@ -385,6 +380,7 @@ mark {
 }
 .title h3 {
     font-size: 40px;
+    padding-bottom: 10px;
 }
 .animate .button {
     min-width: 256px;

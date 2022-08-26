@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Collaborate from '../../components/Collaborate';
 import DigitalInfo from '../../components/digtal/DigtalInfo';
 import NoCases from '../../components/interview/Cases';
 import TestimonialsSection from '../../components/interview/Transparent/TestimonialsSectionItem';

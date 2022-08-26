@@ -10,6 +10,7 @@ import NicheItem from "./nicheItem";
 
 
 export default function ServicesTabs() {
+
     return (
         <div className="section services-tabs animate" data-background="#ffffff" data-theme="header-white">
             <div className="container">
@@ -20,7 +21,7 @@ export default function ServicesTabs() {
                         <li><a href="javascript:void(0)">Niches</a></li>
                     </ul>
 
-                    <div className="tabs-content">
+                    <div className="tabscontent">
                         <div className="tab active">
                             <div className="tab-title">We build successful, long-lasting, profitable products for our
                                 clients and can help you with your projects </div>
