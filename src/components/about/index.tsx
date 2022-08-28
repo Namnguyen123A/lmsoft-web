@@ -1,5 +1,11 @@
 import * as React from 'react';
+import "react-slideshow-image/dist/styles.css";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./main.scss";
+import { dataSlide } from "./data"
+import Slider from "react-slick";
 import background from '../../assets/team-photo.jpg';
 import talk from '../../assets/1-4-1024x757.png';
 import workone from '../../assets/2-3.png';
@@ -18,24 +24,46 @@ import peopleone from '../../assets/team-01.jpg';
 import peopletwo from '../../assets/team-02.jpg';
 import peoplethree from '../../assets/team-03.jpg';
 import peoplefour from '../../assets/team-08.jpg';
+import logoReview from '../../assets/review-logo.png'
 
 import image from '../../assets/improve-img.svg';
+
 
 export interface IAboutProps {
 }
 
-export default function about (props: IAboutProps) {
+export default function about(props: IAboutProps) {
+  const renderSlides = () =>
+    dataSlide.map((item) => (
+      <div className="testimonials-slider">
+        <div className="avatar-holder">
+          <div className="avatar" style={{ backgroundImage: `url(${item.src})` }}></div>
+        </div>
+        <blockquote>
+          <p>{item.title}</p>
+          <a href='/' className="full-review">
+            <img loading='lazy' src={logoReview}></img>
+            Full Review
+          </a>
+        </blockquote>
+        <div className="author-details">
+          <cite>{item.name}</cite>
+          <span className="post">Ruggengraat co-founder1</span>
+        </div>
+      </div>
+    ));
+
   return (
     <div>
       {/* banner */}
       <div className="about-intro">
-        <div className="photo-intro" style={{backgroundImage: `url(${background})`}}>
-            <div className="container-about">
-                <div className="info-about">
-                    <h1 className="">Remote development you can trust</h1>
-                    <p>Mobile and Web applications built by real in-house teams</p>
-                </div>
+        <div className="photo-intro" style={{ backgroundImage: `url(${background})` }}>
+          <div className="container-about">
+            <div className="info-about">
+              <h1 className="">Remote development you can trust</h1>
+              <p>Mobile and Web applications built by real in-house teams</p>
             </div>
+          </div>
         </div>
       </div>
       {/* features */}
@@ -74,14 +102,14 @@ export default function about (props: IAboutProps) {
                   <p>Agile management gives us flexible schedules and allows us to work with maximum productivity. We always stay on top of deadlines, and we do it with joy.</p>
                 </div>
                 <div className="images-holder animate animated">
-                  <div className="images talk" style={{backgroundImage: `url(${talk})`}}></div>
+                  <div className="images talk" style={{ backgroundImage: `url(${talk})` }}></div>
                 </div>
               </div>
-                <div className="images-holder-button animate animated">
-                  <div className="images-one talk" style={{backgroundImage: `url(${workone})`}}></div>
-                  <div className="images-two" style={{backgroundImage: `url(${worktwo})`}}></div>
-                  <div className="images-three" style={{backgroundImage: `url(${workthree})`}}></div>
-                </div>
+              <div className="images-holder-button animate animated">
+                <div className="images-one talk" style={{ backgroundImage: `url(${workone})` }}></div>
+                <div className="images-two" style={{ backgroundImage: `url(${worktwo})` }}></div>
+                <div className="images-three" style={{ backgroundImage: `url(${workthree})` }}></div>
+              </div>
             </div>
             {/* center */}
             <div className="photo-box inverse">
@@ -91,14 +119,14 @@ export default function about (props: IAboutProps) {
                   <p>We persistently work on our office to make it feel like home. Ping-pong, charades, football, parties, or just regular lunches together help us clear the mind after a hard task and get energized for future challenges.</p>
                 </div>
                 <div className="images-holder animate animated">
-                  <div className="images talk" style={{backgroundImage: `url(${workfour})`}}></div>
+                  <div className="images talk" style={{ backgroundImage: `url(${workfour})` }}></div>
                 </div>
               </div>
 
               <div className="images-holder-button animate animated">
-                <div className="images-five talk" style={{backgroundImage: `url(${workfive})`}}></div>
-                <div className="images-six" style={{backgroundImage: `url(${worksix})`}}></div>
-                <div className="images-seven" style={{backgroundImage: `url(${workseven})`}}></div>
+                <div className="images-five talk" style={{ backgroundImage: `url(${workfive})` }}></div>
+                <div className="images-six" style={{ backgroundImage: `url(${worksix})` }}></div>
+                <div className="images-seven" style={{ backgroundImage: `url(${workseven})` }}></div>
               </div>
 
             </div>
@@ -110,15 +138,15 @@ export default function about (props: IAboutProps) {
                   <p>We always take unique and innovative projects. High standards and inspiring goals encourage everyone on the team to pursue excellence.</p>
                 </div>
                 <div className="images-holder-a animate animated">
-                  <div className="images-a talk" style={{backgroundImage: `url(${workeight})`}}></div>
-                  <div className="images-b talk" style={{backgroundImage: `url(${worknine})`}}></div>
+                  <div className="images-a talk" style={{ backgroundImage: `url(${workeight})` }}></div>
+                  <div className="images-b talk" style={{ backgroundImage: `url(${worknine})` }}></div>
                 </div>
               </div>
-                <div className="images-holder-button animate animated">
-                  <div className="images-ten talk" style={{backgroundImage: `url(${workten})`}}></div>
-                  <div className="images-elevent" style={{backgroundImage: `url(${workelevent})`}}></div>
-                  <div className="images-twelve" style={{backgroundImage: `url(${worktwelve})`}}></div>
-                </div>
+              <div className="images-holder-button animate animated">
+                <div className="images-ten talk" style={{ backgroundImage: `url(${workten})` }}></div>
+                <div className="images-elevent" style={{ backgroundImage: `url(${workelevent})` }}></div>
+                <div className="images-twelve" style={{ backgroundImage: `url(${worktwelve})` }}></div>
+              </div>
             </div>
           </div>
         </div>
@@ -167,9 +195,25 @@ export default function about (props: IAboutProps) {
           </ul>
         </div>
       </div>
-
+      {/* slide */}
+      <div className="testimonials-holder">
+        <div className="container">
+          <div className="testimonials">
+            <Slider
+              dots={false}
+              slidesToShow={1}
+              slidesToScroll={1}
+              autoplay={false}
+              autoplaySpeed={3000}
+            >
+              {renderSlides()}
+            </Slider>
+            <a href='/' className="button animate animated">Start My Project</a>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    
+
+
   );
 }

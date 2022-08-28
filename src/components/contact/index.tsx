@@ -21,8 +21,8 @@ export default function contact (props: IContact) {
                                 <div className="form-contacts lg group">
                                     <div className="form-contacts-wrap full-name">
                                         <span className="form-full full-name">
-                                            <input type="text" name="full-name" size={40} className="form-contacts-input-one"></input>
-                                            <span className="input-group">Full Name*</span>
+                                            <input type="text" name="full-name" size={40} className="form-contacts-input-one" placeholder='Full Name*'></input>
+                                            {/* <span className="input-group">Full Name*</span> */}
                                         </span>
                                         <p></p>
                                     </div>
@@ -36,8 +36,8 @@ export default function contact (props: IContact) {
                                 <div className="form-contacts botton-valid">
                                     <div className="form-contacts-wrap email">
                                         <span className="form-full email">
-                                            <input type="text" name="email" size={40} className="form-contacts-input"></input>
-                                            <span className="input-group">Email*</span>
+                                            <input type="text" name="email" size={40} className="form-contacts-input" placeholder='Email*'></input>
+                                            {/* <span className="input-group">Email*</span> */}
                                         </span>
                                         <p></p>
                                     </div>
@@ -47,8 +47,8 @@ export default function contact (props: IContact) {
                                 <div className="form-contacts botton-valid">
                                     <div className="form-contacts-wrap phone-number">
                                         <span className="form-full phone">
-                                            <input type="text" name="phone-number" size={40} className="form-contacts-input"></input>
-                                            <span className="input-group">Phone Number*</span>
+                                            <input type="text" name="phone-number" size={40} className="form-contacts-input" placeholder='Phone Number*'></input>
+                                            {/* <span className="input-group">Phone Number*</span> */}
                                         </span>
                                         <p></p>
                                     </div>
@@ -61,8 +61,8 @@ export default function contact (props: IContact) {
                                 <div className="form-contacts lg group">
                                     <div className="form-contacts-wrap message">
                                         <span className="form-full message">
-                                            <input type="text" name="comment" className="form-contacts-input-three" size={40}></input>
-                                            <span className="input-group">Tell us about your project*</span>
+                                            <input type="text" name="comment" className="form-contacts-input-three" placeholder="Tell us about your project*" size={40}></input>
+                                            {/* <span className="input-group">Tell us about your project*</span> */}
                                         </span>
                                         <p></p>
                                     </div>
