@@ -1,6 +1,5 @@
 import * as React from 'react';
 import "react-slideshow-image/dist/styles.css";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./main.scss";
@@ -25,7 +24,6 @@ import peopletwo from '../../assets/team-02.jpg';
 import peoplethree from '../../assets/team-03.jpg';
 import peoplefour from '../../assets/team-08.jpg';
 import logoReview from '../../assets/review-logo.png'
-
 import image from '../../assets/improve-img.svg';
 
 
