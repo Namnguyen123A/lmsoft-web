@@ -8,7 +8,7 @@
 
 .form-contacts-us {
     max-width: 570px;
-    //margin-top: 43px;
+    margin-top: 100px;
     padding-bottom: 50px;
     width: 100%;
 }
@@ -19,15 +19,12 @@
     padding: 0;
 }
 
-p {
-    margin-bottom: 30px;
-}
-
 .title-contact {
     display: block;
     color: #18227B;
     letter-spacing: -.2px;
     font-size: 48px;
+    margin-bottom: 30px;
     line-height: 64px;
 }
 
@@ -144,7 +141,7 @@ p {
     padding-bottom: 0 !important;
 }
 
-.form-contacts-col a {
+.form-contacts-col button {
     transition: color 0.4s;
     outline: none;
     text-decoration: none;
@@ -172,10 +169,14 @@ p {
     width: 275px;
     display: block;
     height: 70px;
-    padding: 25px;
+    //padding: 25px;
     text-align: center;
     font-weight: 700;
     padding-bottom: 3px;
+}
+
+.submit {
+    color: #fff;
 }
 
 .image-contact {
@@ -194,19 +195,21 @@ p {
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    display: block;
+    max-width: 100%;
 }
 
-.image-contact:after {
+.image-contact::after {
     transform: translate(-50%, -85%);
     margin-left: 10px;
     content: '';
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 65%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: #fff;
+    background:#434eea;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }

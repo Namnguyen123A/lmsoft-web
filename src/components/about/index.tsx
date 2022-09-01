@@ -31,8 +31,12 @@ export interface IAboutProps {
 }
 
 export default function about(props: IAboutProps) {
+  console.log("huy")
   const renderSlides = () =>
-    dataSlide.map((item) => (
+    dataSlide.map((item) => {
+    console.log("🚀 ~ file: index.tsx ~ line 37 ~ dataSlide.map ~ item", item)
+return (
+
       <div className="testimonials-slider">
         <div className="avatar-holder">
           <div className="avatar" style={{ backgroundImage: `url(${item.src})` }}></div>
@@ -49,7 +53,9 @@ export default function about(props: IAboutProps) {
           <span className="post">Ruggengraat co-founder1</span>
         </div>
       </div>
-    ));
+)
+    }
+    );
 
   return (
     <div>
@@ -211,7 +217,5 @@ export default function about(props: IAboutProps) {
         </div>
       </div>
     </div>
-
-
   );
 }
