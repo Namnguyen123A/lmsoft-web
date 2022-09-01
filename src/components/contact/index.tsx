@@ -108,7 +108,7 @@ export default function Contact(props: IContact) {
                                     {/* send */}
                                     <div className="form-contacts-col">
                                         <button className="send-btn" type='submit'>
-                                            <a className="submit">Send</a>
+                                            <a href="/" className="submit">Send</a>
                                         </button>
                                     </div>
                                 </div>

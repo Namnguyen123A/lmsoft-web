@@ -46,7 +46,7 @@ export default function Banner(props: IBannerprops) {
               <li className="">
                 <div className="firm">
                   <a className="" href="/">
-                    <img src={rateTwo} loading="lazy" width={31} height={22}></img>
+                    <img src={rateTwo} loading="lazy" width={54} height={22}></img>
                   </a>
                 </div>
                 <div className="rating">
@@ -63,7 +63,7 @@ export default function Banner(props: IBannerprops) {
               <li className="">
                 <div className="firm">
                   <a className="" href="/">
-                    <img src={rateThree} loading="lazy" width={31} height={22}></img>
+                    <img src={rateThree} loading="lazy" width={80} height={12}></img>
                   </a>
                 </div>
                 <div className="rating">
