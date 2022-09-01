@@ -3,8 +3,9 @@ import "./main.scss";
 export interface IContact {
 }
 
-export default function contact (props: IContact) {
+export default function Contact (props: IContact) {
   return (
+    <div className="section contact-us" style={{background: '#f4f7fe'}}>
     <div className="container">
         <div className="contacts-us">
             <div className="form-contacts-us">
@@ -104,6 +105,7 @@ export default function contact (props: IContact) {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   );
 }

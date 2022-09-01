@@ -1,5 +1,7 @@
 import * as React from 'react';
+import Banner from '../../components/banner';
 import Collaborate from '../../components/Collaborate';
+import Contact from '../../components/contact';
 import DigitalInfo from '../../components/digtal/DigtalInfo';
 import NoCases from '../../components/interview/Cases';
 import TestimonialsSection from '../../components/interview/Transparent/TestimonialsSectionItem';
@@ -15,6 +17,7 @@ export default function HomePage (props: IHomePageProps) {
   return (
     <MainLayout>
         <div className="dropdown">
+                <Banner />
             <div className="container">
                 <Services />
             </div>
@@ -23,6 +26,9 @@ export default function HomePage (props: IHomePageProps) {
                 <TestimonialsSection />
                 <MeetOurTeam />
                 <DigitalInfo />
+                <Collaborate />
+                <Contact />
+
         </div>
     </MainLayout>
   );

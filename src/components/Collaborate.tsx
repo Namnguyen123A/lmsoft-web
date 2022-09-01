@@ -1,5 +1,5 @@
-import ArrowDown from '../assets/arrow-down.svg' 
-import ArrowDownHolder from '../assets/arrow-down-holder.svg' 
+import { ReactComponent as ArrowDown} from '../assets/arrow-down.svg' 
+import { ReactComponent as ArrowDownHolder} from '../assets/arrow-down-holder.svg' 
 
 export default function Collaborate() {
     return (
@@ -9,10 +9,7 @@ export default function Collaborate() {
 
             <div className="arrow-down-holder">
                 <ArrowDownHolder />
-                <div className="arrow-down">
-                    <ArrowDown />
-
-                </div>
+            <div className="arrow-down"><ArrowDown /></div>
             </div>
         </div>
     )
