@@ -1,3 +1,9 @@
+.section-contact-us {
+    background: #f4f7fe;
+    padding-top: 50px;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -199,10 +205,10 @@
     width: auto;
     margin: 0 auto;
     position: relative;
-    z-index: 2;
+    z-index: 5;
     display: block;
     max-width: 100%;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 }
 
 
@@ -212,10 +218,10 @@
     margin-left: 10px;
     content: '';
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 45%;
+    top: 30%;
     -webkit-transform: translate(-50%, -40%);
-    background:#434eea;
+    background:#fff;
     border-radius: 50%;
     width: 300px;
     height: 300px;
