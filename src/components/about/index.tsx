@@ -34,7 +34,6 @@ export default function about(props: IAboutProps) {
   console.log("huy")
   const renderSlides = () =>
     dataSlide.map((item) => {
-    console.log("🚀 ~ file: index.tsx ~ line 37 ~ dataSlide.map ~ item", item)
 return (
 
       <div className="testimonials-slider">

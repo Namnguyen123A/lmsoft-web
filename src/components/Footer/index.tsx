@@ -13,27 +13,11 @@ export default function Footer (props: IFooterProps) {
               <div className="column">
                 <ul>
                   <div className="column-top">Company</div>
-                  
-                  <li className="footer-item">
-                    <a href="">Home</a>
-                  </li>
-                  
-                  <li className="footer-item">
-                    <a href="">Cases</a>
-                  </li>
-
-                  <li className="footer-item">
-                    <a href="">About Us</a>
-                  </li>
-                  
-                  <li className="footer-item">
-                    <a href="">Blog</a>
-                  </li>
-                  
-                  <li className="footer-item">
-                    <a href="">Sitemap</a>
-                  </li>
-                  
+                  <li className="footer-item"><a href="">Home</a></li>
+                  <li className="footer-item"><a href="">Cases</a></li>
+                  <li className="footer-item"><a href="">About Us</a></li>
+                  <li className="footer-item"><a href="">Blog</a></li>
+                  <li className="footer-item"><a href="">Sitemap</a></li>
                 </ul>
               </div>
 
