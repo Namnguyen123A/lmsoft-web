@@ -1,5 +1,9 @@
 import * as React from 'react';
+import ReactDOM from 'react-dom'
+import { useState } from 'react';
 import "./style.scss";
+import 'react-modal-video/scss/modal-video.scss';
+import ModalVideo from "react-modal-video";
 import mainIntro from "../../assets/img-5.jpg"
 import rateOne from "../../assets/rate-01.png"
 import rateTwo from "../../assets/rate-02.png"
@@ -9,6 +13,7 @@ export interface IBannerprops {
 }
 
 export default function Banner(props: IBannerprops) {
+  const [isOpen, setOpen] = useState(false)
   return (
     <main className="banner">
       <div className="main-intro has-video">
@@ -19,7 +24,12 @@ export default function Banner(props: IBannerprops) {
         </div>
         <div className="container">
           <div className="short-infor">
-            <a href="https://www.youtube.com/embed/Grl7hVbbDbg?autoplay=1&loop=1&autopause=0" className="play-video"></a>
+
+            <ModalVideo channel='youtube' isOpen={isOpen} videoId="C4QhZvTqhnI" onClose={() => setOpen(false)} />
+
+            <button className="play-video" onClick={() => setOpen(true)}></button>
+
+            {/* <button className="play-video"></button> */}
             <strong className="h1">Create. Grow. Beat. Repeat.</strong>
             <h1>Product development teams for startups and SMBs</h1>
             <a href="/" className="button orange">Let's talk</a>
