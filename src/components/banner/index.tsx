@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-has-content */
 
@@ -27,7 +28,7 @@ export default function Banner(props:any) {
                     <strong className="h1">Create. Grow. Beat. Repeat.</strong>
                     <h1>Product development teams for startups and SMBs</h1>
 
-                    <a href="https://riseapps.co/contact-us/" className="button orange" target="_blank" rel="noreferrer">Let’s Talk</a>
+                    <a href="#" className="button orange" target="_blank" rel="noreferrer">Let’s Talk</a>
                 </div>
                 <div className="rate-info">
                     <ul>

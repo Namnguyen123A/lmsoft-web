@@ -8,15 +8,14 @@ import ServicesItem from "./services-item";
 import TechnologyItem from "./technologi";
 import NicheItem from "./nicheItem";
 
-
 export default function ServicesTabs() {
 
     return (
         <div className="section services-tabs animate" data-background="#ffffff" data-theme="header-white">
             <div className="container">
-                <div className="tabs-holder">
+                <div className="tabs--holder">
                     <ul className="tabs-nav">
-                        <li className="active"><a href="javascript:void(0)">Services</a></li>
+                        <li id="defaultOpen" className="active"><a href="javascript:void(0)">Services</a></li>
                         <li><a href="javascript:void(0)">Technologies</a></li>
                         <li><a href="javascript:void(0)">Niches</a></li>
                     </ul>
