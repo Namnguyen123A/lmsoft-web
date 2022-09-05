@@ -1,3 +1,9 @@
+.section-contact-us {
+    background: #f4f7fe;
+    padding-top: 50px;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,7 +14,7 @@
 
 .form-contacts-us {
     max-width: 570px;
-    //margin-top: 43px;
+    margin-top: 100px;
     padding-bottom: 50px;
     width: 100%;
 }
@@ -22,15 +28,12 @@
     padding: 0;
 }
 
-p {
-    margin-bottom: 30px;
-}
-
 .title-contact {
     display: block;
     color: #18227B;
     letter-spacing: -.2px;
     font-size: 48px;
+    margin-bottom: 30px;
     line-height: 64px;
 }
 
@@ -104,6 +107,7 @@ p {
     color: #18227B;
     font-size: 15px;
     width: 100%;
+    background-color: transparent;
 }
 
 .input-group {
@@ -133,6 +137,7 @@ p {
     line-height: 20px;
     overflow-y: hidden;
     width: 100%;
+    background-color: transparent;
 }
 
 .email {
@@ -147,7 +152,7 @@ p {
     padding-bottom: 0 !important;
 }
 
-.form-contacts-col a {
+.form-contacts-col button {
     transition: color 0.4s;
     outline: none;
     text-decoration: none;
@@ -175,8 +180,55 @@ p {
     width: 275px;
     display: block;
     height: 70px;
-    padding: 25px;
+    //padding: 25px;
     text-align: center;
     font-weight: 700;
     padding-bottom: 3px;
+}
+
+.send-btn:hover {
+    background-color: yellowgreen;
+}
+
+.submit {
+    color: #fff;
+}
+
+
+.image-contact {
+    width: 570px;
+    bottom: 0;
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    right: 20px;
+    margin: 0;
+}
+
+.image-contact img {
+    height: auto;
+
+    width: 570px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    display: block;
+    max-width: 100%;
+    // margin-bottom: 100px;
+}
+
+
+
+.image-contact::after {
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
+    content: '';
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -40%);
+    background:#fff;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
 }

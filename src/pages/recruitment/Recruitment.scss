@@ -27,27 +27,11 @@
     width: 320px;
     height: 100%;
     margin-right: 15px;
-    border: 1px solid rgba(153, 153, 153, 1);
+    border: 1px solid rgba(0, 0, 0, 0.23);
     font-size: 20px;
+    border-radius: 4px;
 }
 
-.select__level {
-    padding: 16px 14px 16px 14px;
-    width: 207px;
-    margin-right: 15px;
-    border: 1px solid rgba(153, 153, 153, 1);
-    font-size: 20px;
-
-}
-
-.select__location {
-    padding: 16px 14px 16px 14px;
-    width: 207px;
-    margin-right: 15px;
-    border: 1px solid rgba(153, 153, 153, 1);
-    font-size: 20px;
-
-}
 
 .search__jobs-btn {
     width: 54px;
@@ -59,6 +43,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 6px;
+    cursor: pointer;
+}
+
+.search__jobs-btn :hover {
+    background-color: rgba(255, 111, 0, 0.8);
 }
 
 .hiring__title {

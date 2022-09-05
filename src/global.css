@@ -125,7 +125,7 @@ a{
 }
 
 .services-info-list .icon-holder {
-    background-color: #f7f9fb;
+    /* background-color: #f7f9fb; */
     padding: 35px 20px;
     display: flex;
     align-items: center;
