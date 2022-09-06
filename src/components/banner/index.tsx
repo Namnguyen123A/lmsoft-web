@@ -25,10 +25,8 @@ export default function Banner(props:any) {
                 <div className="short-info">
                     <a href="https://www.youtube.com/embed/Grl7hVbbDbg?autoplay=1&amp;loop=1&amp;autopause=0"
                         className="play-video"></a>
-
                     <strong className="h1">Create. Grow. Beat. Repeat.</strong>
                     <h1>Product development teams for startups and SMBs</h1>
-
                     <a href="#" className="button orange" target="_blank" rel="noreferrer">Let’s Talk</a>
                 </div>
                 <div className="rate-info">
@@ -66,7 +64,7 @@ export default function Banner(props:any) {
 //         </div>
 //         <div className="container">
 //           <div className="short-infor">
-//             <a href="https://www.youtube.com/embed/Grl7hVbbDbg?autoplay=1&loop=1&autopause=0" className="play-video"></a>
+            // <a href="https://www.youtube.com/embed/Grl7hVbbDbg?autoplay=1&loop=1&autopause=0" className="play-video"></a>
 //             <strong className="h1">Create. Grow. Beat. Repeat.</strong>
 //             <h1>Product development teams for startups and SMBs</h1>
 //             <a href="/" className="button orange">Let's talk</a>

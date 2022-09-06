@@ -6,21 +6,7 @@ import { useState } from 'react';
 export interface IContact {
 }
 
-<<<<<<< HEAD
-export default function Contact (props: IContact) {
-  return (
-    <div className="section contact-us" style={{background: '#f4f7fe'}}>
-    <div className="container">
-        <div className="contacts-us">
-            <div className="form-contacts-us">
-                <div className="form">
-                    <form className="contacts">
-                        <p>
-                            <span className="title-contact">Drop us a line</span>
-                        </p>
-=======
 export default function Contact(props: IContact) {
->>>>>>> 57588502eb3e81ae6397ec9243e3d228e39f46ca
 
     const [age, setAge] = useState();
 
@@ -138,12 +124,6 @@ export default function Contact(props: IContact) {
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
-    </div>
-    </div>
-  );
-=======
 
     );
->>>>>>> 57588502eb3e81ae6397ec9243e3d228e39f46ca
 }

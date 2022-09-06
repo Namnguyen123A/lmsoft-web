@@ -148,6 +148,10 @@ a{
     font-size: 14px;
     line-height: 1.43;
     color: #fff;
+    margin-bottom: 20px;
+}
+.info p {
+    margin-bottom: 30px;
 }
 /* cases */
 .no-cases {
@@ -589,9 +593,9 @@ text-align: center;
     font-size: 35px;
 } */
 }
-@media (min-width: 1024px)
+/* @media (min-width: 1024px)
 {
     .meet-our-team {
     padding-top: 0;
 }
-}
+} */

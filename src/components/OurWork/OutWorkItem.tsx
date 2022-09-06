@@ -5,7 +5,7 @@ export default function OurWorkItem(props:any) {
     return (
         <div className="section slides" style={{ backgroundColor: `${color} `, height: '465,5px'}} data-background={color}
             data-theme="header-dark">
-            <div className="container" style={{display: 'flex'}}>
+            <div className="container" style={{display: 'flex', margin: 0}}>
                 <div className="image">
                     <img loading="lazy" style={{width: '100%'}}
                         src={src}

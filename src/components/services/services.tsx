@@ -19,7 +19,6 @@ export default function ServicesTabs() {
                         <li><a href="javascript:void(0)">Technologies</a></li>
                         <li><a href="javascript:void(0)">Niches</a></li>
                     </ul>
-
                     <div className="tabscontent">
                         <div className="tab active">
                             <div className="tab-title">We build successful, long-lasting, profitable products for our

@@ -9,7 +9,7 @@ import MainLayout from '../../components/Layout/MainLayout';
 import OutWork from '../../components/OurWork/OurWork';
 import Services from '../../components/services/services';
 import MeetOurTeam from '../../components/team/team';
-import Banner from '../../components/banner';
+// import Banner from '../../components/banner';
 export interface IHomePageProps {
 }
 
@@ -26,6 +26,8 @@ export default function HomePage(props: IHomePageProps) {
         <TestimonialsSection />
         <MeetOurTeam />
         <DigitalInfo />
+        <Collaborate />
+        <Contact />
       </div>
     </MainLayout>
   );

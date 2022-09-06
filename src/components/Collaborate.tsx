@@ -1,5 +1,5 @@
 import { ReactComponent as ArrowDown} from '../assets/arrow-down.svg' 
-import { ReactComponent as ArrowDownHolder} from '../assets/arrow-down-holder.svg' 
+// import { ReactComponent as ArrowDownHolder} from '../assets/arrow-down-holder.svg' 
 
 export default function Collaborate() {
     return (
@@ -8,7 +8,7 @@ export default function Collaborate() {
             <p>Drop us a line</p>
 
             <div className="arrow-down-holder">
-                <ArrowDownHolder />
+                {/* <ArrowDownHolder /> */}
             <div className="arrow-down"><ArrowDown /></div>
             </div>
         </div>
