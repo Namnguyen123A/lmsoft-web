@@ -3,7 +3,8 @@ import "react-slideshow-image/dist/styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./main.scss";
-import { dataSlide } from "./data"
+import { dataSlide, ourTeam } from "./data"
+import { dataTeam } from "./data"
 import Slider from "react-slick";
 import background from '../../assets/team-photo.jpg';
 import talk from '../../assets/1-4-1024x757.png';
@@ -19,10 +20,6 @@ import worknine from '../../assets/10-copy-2.png';
 import workten from '../../assets/10.png';
 import workelevent from '../../assets/9-5-1024x757.png';
 import worktwelve from '../../assets/12.png';
-import peopleone from '../../assets/team-01.jpg';
-import peopletwo from '../../assets/team-02.jpg';
-import peoplethree from '../../assets/team-03.jpg';
-import peoplefour from '../../assets/team-08.jpg';
 import logoReview from '../../assets/review-logo.png'
 import image from '../../assets/improve-img.svg';
 
@@ -30,29 +27,28 @@ import image from '../../assets/improve-img.svg';
 export interface IAboutProps {
 }
 
-export default function about(props: IAboutProps) {
-  console.log("huy")
+export default function About(props: IAboutProps) {
+
   const renderSlides = () =>
     dataSlide.map((item) => {
-return (
-
-      <div className="testimonials-slider">
-        <div className="avatar-holder">
-          <div className="avatar" style={{ backgroundImage: `url(${item.src})` }}></div>
+      return (
+        <div className="testimonials-slider">
+          <div className="avatar-holder">
+            <div className="avatar" style={{ backgroundImage: `url(${item.src})` }}></div>
+          </div>
+          <blockquote>
+            <p>{item.title}</p>
+            <a href='/' className="full-review">
+              <img loading='lazy' src={logoReview}></img>
+              Full Review
+            </a>
+          </blockquote>
+          <div className="author-details">
+            <cite>{item.name}</cite>
+            <span className="post">Ruggengraat co-founder1</span>
+          </div>
         </div>
-        <blockquote>
-          <p>{item.title}</p>
-          <a href='/' className="full-review">
-            <img loading='lazy' src={logoReview}></img>
-            Full Review
-          </a>
-        </blockquote>
-        <div className="author-details">
-          <cite>{item.name}</cite>
-          <span className="post">Ruggengraat co-founder1</span>
-        </div>
-      </div>
-)
+      )
     }
     );
 
@@ -77,18 +73,16 @@ return (
           </div>
           <strong className="h2 animate animated">We strive to improve</strong>
           <ul className="features-list animate animated">
-            <li className="">
-              <h3>The Word</h3>
-              <p>Our apps make life easier</p>
-            </li>
-            <li className="">
-              <h3>The Word</h3>
-              <p>Our apps make life easier</p>
-            </li>
-            <li className="">
-              <h3>The Word</h3>
-              <p>Our apps make life easier</p>
-            </li>
+            {
+              ourTeam.map((item) => {
+                return (
+                  <li className="">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </li>
+                )
+              })
+            }
           </ul>
         </div>
       </div>
@@ -159,42 +153,21 @@ return (
         <div className="container">
           <h2 className="animate animated">Key Riseappers</h2>
           <ul>
-            <li className="animate animated">
-              <div className="item-people">
-                <img src={peopleone}></img>
-                <div className="infomation-people">
-                  <strong>Vladen</strong>
-                  <span>Chief Executive Officer</span>
-                </div>
-              </div>
-            </li>
-            <li className="animate animated">
-              <div className="item-people">
-                <img src={peopletwo}></img>
-                <div className="infomation-people">
-                  <strong>Irina</strong>
-                  <span>Human Resources Director</span>
-                </div>
-              </div>
-            </li>
-            <li className="animate animated">
-              <div className="item-people">
-                <img src={peoplethree}></img>
-                <div className="infomation-people">
-                  <strong>Dmitri</strong>
-                  <span>Software Team Leader</span>
-                </div>
-              </div>
-            </li>
-            <li className="animate animated">
-              <div className="item-people">
-                <img src={peoplefour}></img>
-                <div className="infomation-people">
-                  <strong>Alex</strong>
-                  <span>Design Team Leader</span>
-                </div>
-              </div>
-            </li>
+            {
+              dataTeam.map((item) => {
+                return (
+                  <li className="animate animated">
+                    <div className="item-people">
+                      <img src={item.src}></img>
+                      <div className="infomation-people">
+                        <strong>{item.author}</strong>
+                        <span>{item.title}</span>
+                      </div>
+                    </div>
+                  </li>
+                )
+              })
+            }
           </ul>
         </div>
       </div>
@@ -203,7 +176,7 @@ return (
         <div className="container">
           <div className="testimonials">
             <Slider
-              dots={false}
+              dots={true}
               slidesToShow={1}
               slidesToScroll={1}
               autoplay={false}
