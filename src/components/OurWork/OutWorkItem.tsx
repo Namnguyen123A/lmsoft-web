@@ -3,16 +3,16 @@ export default function OurWorkItem(props:any) {
     const { color, src, alt, info } = props.item;
     const { dataSrc, title, tags, description, href } = info;
     return (
-        <div className="section slides" style={{ backgroundColor: `${color} `, height: '465,5px'}} data-background={color}
+        <div className="section slides" style={{ backgroundColor: `${color} `, height: '798px'}} data-background={color}
             data-theme="header-dark">
-            <div className="container" style={{display: 'flex', margin: 0}}>
+            <div className="container">
                 <div className="image">
                     <img loading="lazy" style={{width: '100%'}}
                         src={src}
                         alt={alt} />
                 </div>
 
-                <div className="info" style={{width: '48%'}}>
+                <div className="info" style={{width: '45%'}}>
                     <div className="title">
                         <div className="icon">
                             <img loading="lazy" alt="" style={{height: '100px'}}
@@ -34,7 +34,7 @@ export default function OurWorkItem(props:any) {
 
                     <p>{description}</p>
 
-                    <a href={href} className="button" target="_blank" rel="noreferrer">View Case</a>
+                    <a href={href} className="button-view" target="_blank" rel="noreferrer">View Case</a>
                 </div>
             </div>
         </div>

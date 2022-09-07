@@ -2,11 +2,40 @@
 
 
 import { DATA_TESTIMONIALS_SECTION } from './Testimonial-section';
-import TestimonialsSectionItem from './TestimonialsSection';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "./slide.scss"
 
 
 /* eslint-disable react/style-prop-object */
 export default function TestimonialsSection() {
+    const renderSlides = () =>
+        DATA_TESTIMONIALS_SECTION.map((item) => {
+            return (
+                <div>
+                    <div className="item" style={{ width: '100%', display: 'inline-block' }}>
+                        <div className="image-slide">
+                            <div className="has-video" style={{ backgroundImage: `url(${item.backgroundImage})` }}>
+                                <a href={item.href}></a>
+                            </div>
+                        </div>
+                        <div className="info">
+                            <blockquote>
+                                {item.description}
+                                <br></br>
+                            </blockquote>
+                            <div className="author-block">
+                                <span className="name">{item.name}</span>
+                                <span className="post">{item.post}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            )
+        }
+        );
     return (
         <div className="section relationships animate" data-background="#ffffff" data-theme="header-white">
             <div className="container">
@@ -18,12 +47,16 @@ export default function TestimonialsSection() {
                         your project’s goals.</p>
                 </div>
 
-                <div className="trust-us-slider has-iframe">
-                    {
-                        DATA_TESTIMONIALS_SECTION?.map((item:any, index:any) => {
-                            return <TestimonialsSectionItem key={index} item={item} />
-                        })
-                    }
+                <div className="trust-us-slider slick-slider has-iframe">
+                    <Slider
+                        dots={true}
+                        slidesToShow={1}
+                        slidesToScroll={1}
+                        autoplay={false}
+                        autoplaySpeed={3000}
+                    >
+                        {renderSlides()}
+                    </Slider>
                 </div>
 
                 <div className="bottom">
@@ -34,3 +67,5 @@ export default function TestimonialsSection() {
         </div>
     )
 }
+
+

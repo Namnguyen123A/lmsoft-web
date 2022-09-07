@@ -89,7 +89,7 @@ a{
 
 .button {
     background: none;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     color: #fff;
     margin-bottom: 0;
     font-size: 22px;
@@ -137,7 +137,6 @@ a{
 }
 
 .image {
-    width: 45%;
     margin: 0;
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;

@@ -1,0 +1,46 @@
+.our-work .slides {
+    padding-top: 95px;
+    -webkit-box-align: center;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.our-work .image {
+    max-width: 730px;
+    width: 50%;
+}
+
+.our-work .image img {
+    margin: 0 auto;
+    max-height: 560px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.our-work .button-view {
+    min-width: 256px;
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 1.3;
+    height: 64px;
+    padding: 18px 20px 20px;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 27px;
+    font-weight: 500;
+    vertical-align: middle;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    overflow: hidden;
+}

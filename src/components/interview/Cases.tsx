@@ -1,4 +1,5 @@
 import '../../global.css';
+import "./cases.scss"
 
 export default function NoCases() {
     return (
