@@ -5,22 +5,44 @@
     margin: 0 auto 20px;
 }
 
-.trust-us-slider .image-slide > div {
-    height: 0;
-    padding: 57% 0 0;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+.trust-us-slider .slick-list {
+    margin-bottom: 10px;
 }
 
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
 
-.image-slide {
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.trust-us-slider .image {
     margin-bottom: 7px;
     position: relative;
     overflow: hidden;
 }
 
-.image-slide:before {
+.trust-us-slider .image:before {
     content: '';
     position: absolute;
     left: 0;
@@ -31,13 +53,46 @@
     z-index: 2;
 }
 
+.trust-us-slider .image > div {
+    padding-top: 56.5%;
+    height: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.trust-us-slider .play-video {
+    width: 97px;
+    height: 97px;
+    left: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #434eea;
+}
+
+.trust-us-slider .play-video:after {
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 26px solid #fff;
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+}
+
 .trust-us-slider .info {
     font-size: 26px;
-    color: red;
+    color: #fff;
     position: absolute;
-    left: 83px;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 80px;
+    top: 30%;
+    transform: translateY(-100%);
     width: 390px;
     font-weight: 500;
     padding: 0;
@@ -50,13 +105,16 @@
     line-height: 1.23;
     margin-bottom: 20px;
     position: relative;
-    padding: 40px 0 0;
-    font-size: 24;
+    padding: 20px 0 0;
+    font-size: 24px;
 }
 
 .trust-us-slider blockquote:before {
-    width: 30px;
-    height: 24px;
+    width: 20px;
+    height: 15px;
+    left: 0;
+    top: 0;
+    background: url(https://riseapps.co/wp-content/themes/riseapps/dist/images/left-quotation-mark.svg);
     content: '';
     position: absolute;
 }
@@ -65,14 +123,24 @@
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
-    color: #363c91;
+}
+
+.trust-us-slider .name {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .trust-us-slider .slick-arrow.slick-prev {
     left: -98px;
+}
+
+.trust-us-slider .slick-arrow {
     display: block !important;
     bottom: auto;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     margin-top: -36px;
     margin: 0;
@@ -80,10 +148,12 @@
 
 .trust-us-slider .slick-arrow.slick-next {
     right: -98px;
-    display: block !important;
-    bottom: auto;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: -36px;
-    margin: 0;
 }
+
+.relationships .bottom {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+

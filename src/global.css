@@ -146,7 +146,7 @@ a{
 .info {
     font-size: 14px;
     line-height: 1.43;
-    color: #fff;
+    /* color: #fff; */
     margin-bottom: 20px;
 }
 .info p {
@@ -370,10 +370,7 @@ svg:not(:root) {
     min-width: 256px;
 }
 .info {
-    width: 45%;
-    font-size: 20px;
     line-height: 1.43;
-    color: #fff;
 }
 .services-tabs .tab.active .services-info-list .item, .services-tabs .tab.animated .services-info-list .item {
     opacity: 1;
@@ -401,7 +398,6 @@ svg:not(:root) {
 }
 .image {
     position: absolute;
-    left: 50%;
 }
 .slides .container {
     position: static;

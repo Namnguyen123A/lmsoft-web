@@ -26,7 +26,7 @@ export default function Banner(props: IBannerprops) {
           <a href="/" className="button orange">Let's talk</a>
         </div>
         <div className="rate-infor">
-          <ul>
+          <ul className="total-rate">
             <li className="list-rate">
               <div className="firm">
                 <a className="" href="/">
