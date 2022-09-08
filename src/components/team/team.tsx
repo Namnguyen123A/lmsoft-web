@@ -1,4 +1,5 @@
 import '../../global.css';
+import "./main.scss"
 
 export default function MeetOurTeam() {
     return (
