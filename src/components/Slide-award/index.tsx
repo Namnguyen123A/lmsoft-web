@@ -11,12 +11,12 @@ export interface ISlide {
 
 export default function Footer(props: ISlide) {
     const renderSlides = () =>
-        DataAwards.map((item) => {
+        DataAwards.map((item, index) => {
             return (
-                <div>
-                    <div className="item" style={{width:'100%' ,display:'inline-block'}}>
+                <div key={index}>
+                    <div className="item" style={{ width: '100%', display: 'inline-block' }}>
                         <a href={item.href}>
-                            <img loading="lazy">{item.src}</img>
+                            <img loading="lazy" src={item.src}></img>
                         </a>
                     </div>
                 </div>
@@ -28,21 +28,23 @@ export default function Footer(props: ISlide) {
             <div className="container">
                 <div className="mentions-holder">
                     <div className="text">
-                        <h2>Awards</h2>
+                        <h2 className="title-awards">Awards</h2>
                         <p>Receiving rewards always encourages our team
                             to work even harder to deliver great apps to our clients.
                         </p>
                     </div>
                     <div className="images slick-initialized slick-slider slick-dotted">
-                        <Slider
-                            dots={true}
-                            slidesToShow={4}
-                            slidesToScroll={1}
-                            autoplay={false}
-                            autoplaySpeed={3000}
-                        >
-                            {renderSlides()}
-                        </Slider>
+                        <div className="slick-list draggable">
+                            <Slider
+                                dots={true}
+                                slidesToShow={3}
+                                slidesToScroll={1}
+                                autoplay={true}
+                                autoplaySpeed={3000}
+                            >
+                                {renderSlides()}
+                            </Slider>
+                        </div>
                     </div>
                 </div>
             </div>

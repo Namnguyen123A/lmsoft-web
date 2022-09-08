@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Slide } from 'react-slideshow-image';
 import Banner from '../../components/banner';
 import Collaborate from '../../components/Collaborate';
-import SliderAwards from '../../components/Slide-award';
+import SliderAwards from "../../components/Slide-award"
 import Contact from '../../components/contact';
 import DigitalInfo from '../../components/digtal/DigtalInfo';
 import NoCases from '../../components/interview/Cases';
@@ -28,7 +28,7 @@ export default function HomePage(props: IHomePageProps) {
         <TestimonialsSection />
         <MeetOurTeam />
         <DigitalInfo />
-        {/* <SliderAwards /> */}
+        <SliderAwards />
         <Collaborate />
         <Contact />
       </div>
