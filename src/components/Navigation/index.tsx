@@ -3,7 +3,7 @@ import { CgMenu } from "react-icons/cg";
 import { useState } from "react";
 
 import './style.scss'
-import logo from'../../assets/LM Software-04.jpg'
+import logo from'../../assets/img/logoLm.png'
 import { Link } from 'react-router-dom';
 export interface INavigationProps {
 }

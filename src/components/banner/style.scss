@@ -26,6 +26,7 @@
     width: 100%;
     color: #fff;
     z-index: 10;
+    top: 600px;
 }
 
 .rate-info .firm {
@@ -135,13 +136,14 @@
 .main-intro .h1:after {
     content: '';
     position: absolute;
-    left: 5%;
+    left: 4%;
     top: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 67px;
     height: 5px;
     background-color: #434eea;
+    margin-top:55px ;
 }
 .button.orange, input[type="submit"].orange, button.orange {
     background: #f55e23;
@@ -150,6 +152,10 @@
 @media (min-width: 1200px)
 {.main-intro {
     margin-bottom: 130px;
+    height: 800px;
+}
+.main-intro .container {
+    margin-top: 50px;
 }
 .main-intro .short-info .button {
     font-size: 24px;
@@ -160,6 +166,7 @@
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 35px;
+    margin-top: 40px;
 }
 .main-intro .short-info {
     max-width: none;
@@ -170,7 +177,7 @@
     text-align: left;
 }
 .main-intro .h1 {
-    font-size: 70px;
+    font-size: 72px;
     line-height: 1.2;
     padding-right: 80px;
     margin-bottom: 26px;
