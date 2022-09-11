@@ -1,5 +1,5 @@
 .recuitment__container {
-    margin: 250px 382px 0px 382px;
+    margin: 150px 382px 0px 382px;
 }
 
 .heading__box h1 {
@@ -34,9 +34,9 @@
 
 
 .search__jobs-btn {
-    width: 54px;
-    height: 54px;
-    background: rgba(255, 111, 0, 1);
+    width: 50px;
+    height: 40px;
+    background: #ff6f00;
     padding: 6px 8px;
     margin-left: 10px;
     display: flex;
@@ -44,6 +44,7 @@
     justify-content: center;
     border-radius: 6px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .search__jobs-btn :hover {
@@ -71,6 +72,7 @@
 
 .hiring__infor {
     display: flex;
+    margin-top: 15px;
 }
 
 .hiring_heading {
@@ -87,12 +89,14 @@
     right: 50px;
     top: 40px;
     color: rgba(255, 111, 0, 1);
+    cursor: pointer;
 }
 
 .arrow {
     display: flex;
     align-items: center;
-margin-left: 329px;
+    margin-left: 329px;
+    margin-bottom: 50px;
 }
 
 .arrow-left {
@@ -102,7 +106,8 @@ margin-left: 329px;
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    margin-right: 8px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 
 .arrow-left:hover {
@@ -125,8 +130,8 @@ margin-left: 329px;
 
 .one {
     position: absolute;
-    left: 10px;
-    top: 5px;
+    left: 9px;
+    top: 2px;
 }
 
 .arrow-right {
@@ -136,6 +141,9 @@ margin-left: 329px;
     display: flex;
     justify-content: center;
     border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+
 }
 
 .arrow-right:hover {

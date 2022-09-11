@@ -10,6 +10,7 @@ import { ReactComponent as Arrowleft } from "../../assets/arrow-left-solid.svg";
 import { ReactComponent as Location } from "../../assets/location-pin-solid.svg";
 import { ReactComponent as Calendar } from "../../assets/calendar-solid.svg";
 import { ReactComponent as Dollar } from "../../assets/dollar-sign-solid.svg";
+import MainLayout from "../../components/Layout/MainLayout";
 
 export interface IRecruitmentProps {}
 
@@ -27,18 +28,18 @@ export default function Recruitment(props: IRecruitmentProps) {
     },
   ];
   return (
+    <MainLayout>
     <div className="recuitment__container">
       <div className="heading__box">
-        <h1>Lmsoft RECRUITMENT</h1>
+        <h1>LmSoft RECRUITMENT</h1>
       </div>
 
       <div className="search__jobs">
-        <p className="search__jobs-title">Search for jobs</p>
         <div className="search__jobs-action">
           <input
             type="text"
             className="search__jobs-input"
-            placeholder="Search Keywords"
+            placeholder="Search for jobs"
           />
           <SelectLevel selected={selected} setSelected={setSelected} />
           <SelectLocation  selectedLocation={selectedLocation} setSelectedLocation={setSelectedLocation}/>
@@ -85,5 +86,6 @@ export default function Recruitment(props: IRecruitmentProps) {
         </div>
       </div>
     </div>
+  </MainLayout>
   );
 }

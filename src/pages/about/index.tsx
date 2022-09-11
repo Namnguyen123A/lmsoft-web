@@ -10,5 +10,6 @@ export default function HomePage (props: IAboutProps) {
     <MainLayout>
         <About />
     </MainLayout>
+    
   );
 }

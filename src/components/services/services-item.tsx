@@ -28,11 +28,11 @@ export default function ServicesItem(props:any) {
                 </div>
 
                 <div className="h5">{title}</div>
-                <p>{description}</p>
+                <p className="text-decrision">{description}</p>
                 {href &&
                     <span className="learn">
                         Learn more
-                        <LearnMore style={{width: '8px', paddingLeft: '5px'}}/>
+                        <LearnMore style={{}}/>
                     </span>}
             </a>
         </div>

@@ -128,6 +128,9 @@ img {
     margin-bottom: 10px;
     transition: opacity .5s ease-out, transform .5s ease-out, -webkit-transform .5s ease-out;
 }
+h3 {
+    color: #18227b;
+}
 //////
 .our-way h2 {
     font-size: 150px;
@@ -421,7 +424,7 @@ p {
 }
 
 .our-team {
-    margin-bottom: 80px;
+    margin-bottom: 150px;
     text-align: center;
 }
 
@@ -668,15 +671,15 @@ blockquote {
     position: relative;
 }
 
-blockquote:after {
-    left: 40px;
-    right: 40px;
-    content: '';
-    position: absolute;
-    top: 100%;
-    height: 1px;
-    background: #d9d9e5;
-}
+// blockquote:after {
+//     left: 40px;
+//     right: 40px;
+//     content: '';
+//     position: absolute;
+//     top: 100%;
+//     height: 1px;
+//     background: #d9d9e5;
+// }
 
 blockquote p {
     margin: 0;
@@ -756,4 +759,36 @@ cite {
     border-radius: 4px;
     text-transform: capitalize;
     overflow: hidden;
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 0;
+}
+
+.slick-dots li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+}
+
+.slick-dots li.slick-active button {
+    background: #3547f5 !important;
+}
+
+.slick-dots button {
+    min-width: 1px;
+    background: #d3d3d3 !important;
+    width: 9px !important;
+    height: 9px !important;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    text-indent: -9999px;
+    box-shadow: none;
+    transition: background-color 0.4s;
+}
+
+@media screen and (min-width:1200px) {
+    
 }

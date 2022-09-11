@@ -12,7 +12,7 @@ function SelectLevel({selected,setSelected,}: {selected: string, setSelected: an
       </div>
 
       {isActive && (
-        <div className="dropdown-content">
+        <div className="dropdown-content" >
           {options.map((option) => (
             <div
               onClick={(e) => {

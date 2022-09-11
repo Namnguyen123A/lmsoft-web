@@ -7,6 +7,7 @@ import { DATA_NICHES, DATA_SERVICES, DATA_TECHNOLOGIES } from "./services-tab";
 import ServicesItem from "./services-item";
 import TechnologyItem from "./technologi";
 import NicheItem from "./nicheItem";
+import "./main.scss"
 
 export default function ServicesTabs() {
 
@@ -19,7 +20,7 @@ export default function ServicesTabs() {
                         <li><a href="javascript:void(0)">Technologies</a></li>
                         <li><a href="javascript:void(0)">Niches</a></li>
                     </ul>
-                    <div className="tabscontent">
+                    <div className="tabs-content">
                         <div className="tab active">
                             <div className="tab-title">We build successful, long-lasting, profitable products for our
                                 clients and can help you with your projects </div>

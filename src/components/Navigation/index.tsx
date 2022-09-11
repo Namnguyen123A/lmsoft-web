@@ -13,9 +13,8 @@ export default function Navigation (props: INavigationProps) {
   const HandleMenu = function () {
     setIsNavExpanded(!isNavExpanded)
   }
-  console.log(isNavExpanded)
   return (
-    <header className="header transparent home" style={{backgroundColor: "transparent ; right: 0px"}}>
+    <header className="header transparent home" >
       <div className="container">
         <strong className="logo">
 
@@ -59,12 +58,12 @@ export default function Navigation (props: INavigationProps) {
         }
       >
         <ul>
-          <li><a href="/home">Home</a></li>
-          <li><a href="/home">Cases</a></li>
-          <li><a href="/home">Services</a></li>
-          <li><a href="/home">Technologies</a></li>
-          <li><a href="/home">Blog</a></li>
-          <li><a href="/home">About Us</a></li>
+          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/home">Cases</Link></li>
+          <li><Link to="/recruitment">Recruitment</Link></li>
+          <li><Link to="/home">Technologies</Link></li>
+          <li><Link to="/home">Blog</Link></li>
+          <li><Link to="/about">About Us</Link></li>
         </ul>
       </div>
     </div>

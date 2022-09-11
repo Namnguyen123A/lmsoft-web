@@ -2,35 +2,74 @@
 
 
 import { DATA_TESTIMONIALS_SECTION } from './Testimonial-section';
-import TestimonialsSectionItem from './TestimonialsSection';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "./slide.scss"
 
 
 /* eslint-disable react/style-prop-object */
 export default function TestimonialsSection() {
+    const renderSlides = () =>
+        DATA_TESTIMONIALS_SECTION.map((item) => {
+            return (
+                <div>
+
+                    <div className="image">
+                        <div className="has-video" style={{ backgroundImage: `url(${item.backgroundImage})` }}>
+                            <a href={item.href} className="play-video"></a>
+                        </div>
+
+                        <div className="info">
+                            <blockquote>{item.description}</blockquote>
+                            <div className="author-block">
+                                <span>{item.name}</span>
+                                <span>{item.post}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="info">
+                            <blockquote>{item.description}</blockquote>
+                            <div className="author-block">
+                                <span>{item.name}</span>
+                                <span>{item.post}</span>
+                            </div>
+                        </div> */}
+
+                </div>
+            )
+        });
     return (
-        <div className="section relationships animate" data-background="#ffffff" data-theme="header-white">
+        <div className="sections relationships animate animated">
             <div className="container">
+                {/* top */}
                 <div className="heading">
-                    <h2 className='testimonial-h2'>Transparent Relationships Yield The <mark>Best Results</mark></h2>
-
-                    <p>Our custom software development company is an extra force that helps to translate your ideas
-                        in remarkable applications. Development services that are offered are the tools to achieve
-                        your project’s goals.</p>
+                    <h2>Transparent Relationships Yield The Best Results</h2>
+                    <p>Our custom software development company is an extra force that helps to
+                        translate your ideas in remarkable applications. Development services that are
+                        offered are the tools to achieve your project’s goals.
+                    </p>
                 </div>
-
-                <div className="trust-us-slider has-iframe">
-                    {
-                        DATA_TESTIMONIALS_SECTION?.map((item:any, index:any) => {
-                            return <TestimonialsSectionItem key={index} item={item} />
-                        })
-                    }
+                {/* slide */}
+                <div className="trust-us-slider has-iframe slick-slider slick-initialized slick-dotted">
+                    <Slider
+                        dots={true}
+                        slidesToShow={1}
+                        slidesToScroll={1}
+                        autoplay={false}
+                        autoplaySpeed={3000}
+                    >
+                        {renderSlides()}
+                    </Slider>
                 </div>
-
+                {/* botton */}
                 <div className="bottom">
-
-                    <a href="https://riseapps.co/contact-us/" className="button" target="_blank" rel="noreferrer">Tell Your Story</a>
+                    <a href='/' className="button">Tell Your Story</a>
                 </div>
             </div>
         </div>
     )
 }
+
+
