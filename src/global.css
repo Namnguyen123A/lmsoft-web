@@ -151,6 +151,7 @@ a{
 }
 .info p {
     margin-bottom: 30px;
+    color: #fff;
 }
 /* cases */
 .no-cases {
@@ -420,6 +421,7 @@ svg:not(:root) {
 .title h3 {
     font-size: 40px;
     padding-bottom: 10px;
+    color: #fff;
 }
 .animate .button {
     min-width: 256px;
@@ -535,6 +537,19 @@ svg:not(:root) {
 .collaborate h3, .collaborate .h3 {
     font-size: 48px;
     margin-bottom: 18px;
+}
+.button-view:after {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: left .6s, visibility .6s, opacity .6s;
+    transition: left .6s, visibility .6s, opacity .6s;
 }
 }
 
