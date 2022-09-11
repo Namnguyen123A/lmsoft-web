@@ -8,7 +8,7 @@ function SelectLevel({selected,setSelected,}: {selected: string, setSelected: an
     <div className="dropdown">
       <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>
         {selected}
-        <DropdownIcon style={{ width: 16, color: "#fff" }} />
+        <DropdownIcon style={{ width: 16, color: "#fff", marginLeft: '10px' }} />
       </div>
 
       {isActive && (

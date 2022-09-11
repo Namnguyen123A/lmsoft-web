@@ -8,7 +8,7 @@ function SelectLocation({selectedLocation,setSelectedLocation,}: {selectedLocati
     <div className="dropdown">
       <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>
         {selectedLocation}
-        <DropdownIcon style={{ width: 16, color: "#fff" }} />
+        <DropdownIcon style={{ width: 16, color: "#fff", marginLeft: '10px' }} />
       </div>
 
       {isActive && (
