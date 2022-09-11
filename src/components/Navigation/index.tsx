@@ -48,7 +48,10 @@ export default function Navigation (props: INavigationProps) {
           </li>
 
         </ul>
-        <a href="" className="button-btn">Contact Us</a>
+        <li className="button-btn">
+        <Link to="/contact">Contact Us</Link>
+        </li>
+        {/* <a href="" className="button-btn">Contact Us</a> */}
         
         
         <div className="button-menu" onClick = {HandleMenu}>< CgMenu/></div>

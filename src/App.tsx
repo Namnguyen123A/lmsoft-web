@@ -9,6 +9,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import ContactToUs from "./components/ContactToUs/contactToUs";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
               <Link to="/recruitment"></Link>
             </li>
             <Link to="/about"></Link>
+            <li>
+              <Link to="/contact"></Link>
+            </li>
           </ul>
         </nav>
           <Switch>
@@ -38,6 +42,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/contact">
+              <ContactToUs />
             </Route>
           </Switch>
         </div>

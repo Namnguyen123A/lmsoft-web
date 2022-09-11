@@ -1,0 +1,11 @@
+.section_contact {
+    color: #b4bbcb;
+    font: 15px/2 'LucidaGrande-Bold', sans-serif;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.address-contact p {
+    font-size: 14px;
+    line-height: 1,43;
+}
