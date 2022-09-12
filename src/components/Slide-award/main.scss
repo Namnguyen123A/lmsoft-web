@@ -1,0 +1,109 @@
+.mentions {
+    padding: 100px 0 90px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #212121;
+}
+
+.mentions-holder {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.mentions.animated .mentions-holder > * {
+    transform: translateY(0);
+}
+
+.mentions .text {
+    text-align: left;
+    width: 290px;
+    flex-shrink: 0;
+    font-size: 20px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.title-awards {
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: -.1px;
+}
+
+.mentions p {
+    padding-top: -10px;
+}
+
+.mentions .images {
+    position: relative;
+    width: 880px;
+    margin: 0;
+    // margin-right: -50px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+}
+
+.mentions .images:before {
+    left: 33.33%;
+    height: 120px;
+    bottom: auto;
+    top: 120px;
+    content: '';
+    position: absolute;
+    width: 1px;
+    background: #434eea;
+    opacity: .2;
+}
+
+.mentions .images:after {
+    right: 33.33%;
+    height: 120px;
+    bottom: auto;
+    top: 120px;
+    content: '';
+    position: absolute;
+    width: 1px;
+    background: #434eea;
+    opacity: .2;
+}
+
+.mentions .slick-list {
+    width: 100% !important;
+    padding: 10px 0;
+}
+.mentions .slick-track {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mentions .item a {
+    max-width: 180px;
+    max-height: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.mentions img {
+    max-width: 180px;
+    max-height: 160px;
+    margin: 0 auto;
+}
+
+.mentions .slick-dots {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 30px;
+}

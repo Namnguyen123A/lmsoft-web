@@ -1,0 +1,139 @@
+.footer {
+    font-size: 18px;
+    padding-top: 78px;
+    padding: 62px 0 15px;
+    background-color: #3547f5;
+    color: #fff;
+    text-align: center;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        .footer-top {
+            display: flex;
+            align-items: flex-start;
+            // padding-bottom: 10px;
+            .left {
+                width: 70%;
+                .footer-columns{
+                    display: flex;
+                    align-items: flex-start;
+                    -webkit-box-align: start;
+                }
+            }
+        }
+    }
+}
+
+
+.column {
+    //width: 33.33%;
+    width: 215px;
+    padding-right: 70px;
+    li {
+        //list-style: none;
+        margin-bottom: 18px;
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: opacity .3s;
+            outline: none;
+        }
+    }
+}
+
+ul {
+    margin-bottom: 27px;
+    padding: 0;
+    .column-top{
+        margin-bottom: 18px;
+        font-family: "Avenir", "Nunito", sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        line-height: 1,25;
+        text-align: start;
+        list-style: none;
+        
+    }
+
+    .footer-item {
+        text-align: left;
+        list-style: none;
+    }
+}
+
+
+.sub-menu {
+    margin: 10px 0 0;
+    padding: 0;
+    display: block;
+}
+
+.menu-item {
+    position: relative;
+    padding-left: 12px;
+    text-align: left;
+    margin: 10px 0 0;
+    list-style: inside;
+}
+/////
+.right {
+    width: 30%;
+    padding-left: 20px;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.contacts {
+    padding-bottom:35px;
+}
+
+address {
+    font-size: 18px;
+    margin: 0 0 37px;
+    letter-spacing: -0.09px;
+    font-size: normal;
+    p {
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.contact-email {
+    font-size: 18px;
+    a {
+        transition: opacity .3s;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+//////
+.footer-bottom {
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 14px;
+}
+
+.bottom-right {
+    text-align: right;
+    p {
+        font-size: 14px;
+        a {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 12px;
+        }
+    }
+}
