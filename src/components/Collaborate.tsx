@@ -9,7 +9,7 @@ export default function Collaborate() {
 
             <div className="arrow-down-holder">
                 {/* <ArrowDownHolder /> */}
-            <div className="arrow-down"><ArrowDown /></div>
+            <div className="arrow-down"><ArrowDown/></div>
             </div>
         </div>
     )

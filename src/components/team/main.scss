@@ -6,3 +6,35 @@
 .meet-our-team .photo {
     bottom: -150px;
 }
+
+@media screen and (max-width: 1199px){
+    .meet-our-team {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .meet-our-team .short-info {
+        max-width: none;
+        margin: 0;
+        letter-spacing: -.1px;
+        width: 50%;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+    
+    .meet-our-team .photo {
+        max-width: 360px;
+        margin: 0;
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+    }
+
+    .block-title {
+        padding-left: 70px;
+    }
+
+    .short-info p {
+        font-size: 16px;
+    }
+}

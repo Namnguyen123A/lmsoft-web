@@ -7,7 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  // Link,
 } from "react-router-dom";
 import ContactToUs from "./components/ContactToUs/contactToUs";
 
@@ -19,7 +19,7 @@ function App() {
         <HomePage />
       </Route>
       <div>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/home"></Link>
@@ -32,7 +32,7 @@ function App() {
               <Link to="/contact"></Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
           <Switch>
             <Route path="/home">
               <HomePage />

@@ -107,3 +107,30 @@
     margin-bottom: 0;
     padding-top: 30px;
 }
+
+@media screen and (max-width: 1199px){
+    .mentions-holder {
+        display: block;
+    }
+
+    .mentions .text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .mentions .text p {
+        font-size: 16px;
+    }
+
+    .mentions .images {
+        width: 100%;
+    }
+
+    .mentions .images:before {
+        top: 50px;
+    }
+
+    .mentions .images:after {
+        top: 50px;
+    }
+}

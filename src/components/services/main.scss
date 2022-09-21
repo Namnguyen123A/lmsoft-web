@@ -36,3 +36,29 @@ li .active {
     transition: transform .3s, -webkit-transform .3s;
     padding-left: 5px;
 }
+
+@media screen and (max-width: 1199px){
+    .services-info-list {
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+
+    .services-info-list .item {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.9);
+        width: 220px;
+        margin: 0 auto 25px;
+    }
+
+    .tab-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-tabs .tab-title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+}

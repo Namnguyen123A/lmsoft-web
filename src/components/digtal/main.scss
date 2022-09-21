@@ -1,0 +1,36 @@
+@media screen and (max-width:1199px) {
+    .digital-info-list li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        font-size: 16px;
+    }
+
+    .digital-info-list .h3 {
+        color: #fff;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 800;
+        margin-bottom: 0;
+    }
+
+    .digital-info .h3 strong {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .digital-info .features-info-list {
+        border: none;
+        margin-top: 30px;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+
+    .digital-info .features-info-list li {
+        width: 33.33%;
+        padding: 0 20px;
+        margin-bottom: 47px;
+    }
+}
