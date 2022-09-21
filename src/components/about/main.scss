@@ -789,6 +789,99 @@ cite {
     transition: background-color 0.4s;
 }
 
-@media screen and (min-width:1200px) {
-    
+@media screen and (max-width:1199px) {
+    .our-way h2 {
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    .images-holder {
+        width: 49%;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+    .images {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-one {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-two {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-three {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-four {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-five {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-six {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-seven {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-ten {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-elevent {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-twelve {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-a {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .images-b {
+        max-width: none;
+        margin: 0;
+        height: 300px;
+    }
+    .h2 {
+        font-size: 38px;
+    }
+    .decription p {
+        font-size: 18px;
+    }
+
+    .decription-2 p {
+        font-size: 18px;
+    }
+
+    h2 {
+        margin-bottom: 45px;
+    }
+
+    .our-team li {
+        width: 33.3%;
+    }
 }

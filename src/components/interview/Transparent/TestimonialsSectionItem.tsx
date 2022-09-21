@@ -10,11 +10,33 @@ import "./slide.scss"
 
 /* eslint-disable react/style-prop-object */
 export default function TestimonialsSection() {
+    const settings = {
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1,
+        speed: 500,
+        slidesToScroll: 1,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              slidesToShow: 1,
+            },
+          },
+        ],
+      };
     const renderSlides = () =>
         DATA_TESTIMONIALS_SECTION.map((item) => {
             return (
                 <div>
-
                     <div className="image">
                         <div className="has-video" style={{ backgroundImage: `url(${item.backgroundImage})` }}>
                             <a href={item.href} className="play-video"></a>
@@ -53,12 +75,12 @@ export default function TestimonialsSection() {
                 </div>
                 {/* slide */}
                 <div className="trust-us-slider has-iframe slick-slider slick-initialized slick-dotted">
-                    <Slider
-                        dots={true}
-                        slidesToShow={1}
-                        slidesToScroll={1}
-                        autoplay={false}
-                        autoplaySpeed={3000}
+                    <Slider {...settings}
+                        // dots={true}
+                        // slidesToShow={1}
+                        // slidesToScroll={1}
+                        // autoplay={false}
+                        // autoplaySpeed={3000}
                     >
                         {renderSlides()}
                     </Slider>

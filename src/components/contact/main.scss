@@ -229,3 +229,16 @@
     width: 500px;
     height: 500px;
 }
+
+@media screen and (max-width: 1199px) {
+    
+    .form-contacts-us {
+        max-width: none;
+    }
+    .image-contact {
+        display: none;
+    }
+    .send-btn {
+        width: 100%;
+    }
+}

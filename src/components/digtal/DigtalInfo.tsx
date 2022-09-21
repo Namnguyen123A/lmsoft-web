@@ -1,5 +1,6 @@
 
 import '../../global.css';
+import './main.scss'
 import { DATA_DIGITAL_INFO, DATA_FEATURES_INFO } from './digtal-info';
 import DigitalInfoItem from './DigtalInfoItem';
 import FeaturesInfoItem from './features';

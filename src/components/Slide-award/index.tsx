@@ -10,6 +10,32 @@ export interface ISlide {
 }
 
 export default function Footer(props: ISlide) {
+    const settings = {
+        centerMode: true,
+        autoplay: true,
+        centerPadding: '0px',
+        slidesToShow: 3,
+        speed: 500,
+        slidesToScroll: 1,
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    };
+
     const renderSlides = () =>
         DataAwards.map((item, index) => {
             return (
@@ -35,12 +61,12 @@ export default function Footer(props: ISlide) {
                     </div>
                     <div className="images slick-initialized slick-slider slick-dotted">
                         <div className="slick-list draggable">
-                            <Slider
-                                dots={true}
-                                slidesToShow={3}
-                                slidesToScroll={1}
-                                autoplay={true}
-                                autoplaySpeed={3000}
+                            <Slider {...settings}
+                            // dots={true}
+                            // slidesToShow={3}
+                            // slidesToScroll={1}
+                            // autoplay={true}
+                            autoplaySpeed={3000}
                             >
                                 {renderSlides()}
                             </Slider>

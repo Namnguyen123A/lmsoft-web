@@ -26,6 +26,30 @@ export interface IAboutProps {
 }
 
 export default function About(props: IAboutProps) {
+  const settings = {
+    centerMode: true,
+    autoPlay: true,
+    centerPadding: '0px',
+    slidesToShow: 1,
+    speed: 500,
+    slidesToScroll: 1,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
   const renderSlides = () =>
     dataSlide.map((item) => {
@@ -173,12 +197,12 @@ export default function About(props: IAboutProps) {
       <div className="testimonials-holder">
         <div className="container">
           <div className="testimonials">
-            <Slider
-              dots={true}
-              slidesToShow={1}
-              slidesToScroll={1}
-              autoplay={false}
-              autoplaySpeed={3000}
+            <Slider {...settings}
+              // dots={true}
+              // slidesToShow={1}
+              // slidesToScroll={1}
+              // autoplay={false}
+              // autoplaySpeed={3000}
             >
               {renderSlides()}
             </Slider>

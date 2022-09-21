@@ -137,3 +137,21 @@ p {
         }
     }
 }
+
+
+@media screen and (max-width: 1199px) {
+    .footer .container .footer-top .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    
+
+    
+
+}
