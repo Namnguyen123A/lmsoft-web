@@ -14,9 +14,59 @@
     z-index: 50;
     position: fixed;
     text-align: left;
-    height: 80px;
+
     
+    .header3 {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      text-align: left;
+      width: 100%;
+      background-color: transparent;
+      transform: translateY(10);
+      transition: transform 6s ease;
+      animation: myanimation 3s;
+      z-index: 50;
+    }
+
+    .header2 {
+      background-color: rgb(65, 71, 86);
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 50;
+      position: fixed;
+      text-align: left;
+    }
+    .header4 {
+      background-color: rgb(43, 183, 196);
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 50;
+      position: fixed;
+      text-align: left;
+    }
+    .header6 {
+      background-color: #434eea;
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 50;
+      position: fixed;
+      text-align: left;
+    }
     
+    .header5 {
+      background-color: rgb(30, 115, 190);
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 50;
+      position: fixed;
+      text-align: left;
+    }
     .container {
     max-width: 1200px;
     margin: 0 auto;

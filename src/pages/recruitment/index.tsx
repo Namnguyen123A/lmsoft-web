@@ -1,5 +1,4 @@
-import * as React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import "./Recruitment.scss";
 import SelectLevel from "./SelectLevel";
 import SelectLocation from "./SelectLocation";
@@ -10,7 +9,8 @@ import { ReactComponent as Arrowleft } from "../../assets/arrow-left-solid.svg";
 import { ReactComponent as Location } from "../../assets/location-pin-solid.svg";
 import { ReactComponent as Calendar } from "../../assets/calendar-solid.svg";
 import { ReactComponent as Dollar } from "../../assets/dollar-sign-solid.svg";
-import MainLayout from "../../components/Layout/MainLayout";
+import Header from "../../components/Header";
+import Footer2 from "../../components/Header/footer";
 
 export interface IRecruitmentProps {}
 
@@ -28,7 +28,8 @@ export default function Recruitment(props: IRecruitmentProps) {
     },
   ];
   return (
-    <MainLayout>
+    <div>
+    <Header />
     <div className="recuitment__container">
       <div className="heading__box">
         <h1>LmSoft RECRUITMENT</h1>
@@ -86,6 +87,8 @@ export default function Recruitment(props: IRecruitmentProps) {
         </div>
       </div>
     </div>
-  </MainLayout>
+  {/* </Header> */}
+  <Footer2 />
+  </div>
   );
 }

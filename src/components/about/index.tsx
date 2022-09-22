@@ -57,7 +57,7 @@ export default function About(props: IAboutProps) {
       {/* banner */}
       <div className="about-intro">
         <div className="photo-intro" style={{ backgroundImage: `url(${background})` }}>
-          <div className="container-about">
+          <div className="container-about" style={{marginTop: '-50px'}}>
             <div className="info-about">
               <h1 className="">Remote development you can trust</h1>
               <p>Mobile and Web applications built by real in-house teams</p>

@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import * as React from 'react';
 
-import imageContact from "../../assets/contact.png"
 import { useState } from 'react';
-import MainLayout from '../Layout/MainLayout';
 import './main.css'
+import Footer2 from '../Header/footer';
+import Header from '../Header';
 export interface IContact {
 }
 
@@ -19,7 +19,8 @@ export default function ContactToUs(props: IContact) {
 
 
     return (
-        <MainLayout>
+        <div>
+        <Header />
         <div className="section-contact-us"  style={{marginTop: '50px'}}>
             <div className="container">
                 <div className="contacts-us" style={{display: 'flex', alignItems: 'center'}}>
@@ -131,7 +132,7 @@ export default function ContactToUs(props: IContact) {
                             contact us directly:
                         </h3>
                         <ul className="contacts-list" style={{fontSize: '24px'}}>
-                            <li style={{marginBottom: '25px'}}><a href="">We not yet update phone</a></li>
+                            <li style={{marginBottom: '25px'}}><a href="">+84 903438731</a></li>
                             <li style={{marginBottom: '25px'}}><a href="">LmSoft@gmail.com</a></li>
                             <h5 className="section_contact">Offices</h5>
                         </ul>
@@ -139,9 +140,10 @@ export default function ContactToUs(props: IContact) {
                             <div className="item">
                                         <div className="h4" style={{fontSize: '20px', marginBottom: '10px',color: 'blue'}}>Main Office</div>
                                             <address className='address-contact'> 
-                                                <p>Kaupmehe tn 7-120,<br />
-                                                10114  Kesklinna linnaosa<br />
-                                                Harju maakond, Tallinn, Estonia </p>
+                                                <p>8th for Lacasta Tower,<br />
+                                                Van Phu Ha Dong Urban Area
+                                                <br />
+                                                 </p>
                                             </address>
                             </div>
                         </div>
@@ -149,6 +151,7 @@ export default function ContactToUs(props: IContact) {
                 </div>
             </div>
         </div>
-        </MainLayout>
+        <Footer2 />
+        </div>
     );
 }
