@@ -110,10 +110,10 @@ export default function Navigation (props: INavigationProps) {
           <li className="nav-item">
             <a href="">Blog</a>
           </li>
-
+{/* 
           <li className="nav-item">
             <Link to="/about">About Us</Link>
-          </li>
+          </li> */}
 
         </ul>
         <li className="button-btn">
@@ -134,7 +134,7 @@ export default function Navigation (props: INavigationProps) {
           <li><Link to="/recruitment">Recruitment</Link></li>
           <li><Link to="/home">Technologies</Link></li>
           <li><Link to="/home">Blog</Link></li>
-          <li><Link to="/about">About Us</Link></li>
+          {/* <li><Link to="/about">About Us</Link></li> */}
         </ul>
       </div>
     </div>

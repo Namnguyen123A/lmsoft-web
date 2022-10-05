@@ -1,3 +1,46 @@
+
+@media (min-width: 1400px) {
+    .mentions-holder {
+        display: flex;
+        align-items: center;
+        -webkit-box-align: center;
+    }
+    .mentions .text {
+        text-align: left;
+        width: 290px;
+        flex-shrink: 0;
+        font-size: 20px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+    .mentions .images {
+        width: 290%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mentions .text {
+        text-align: center;
+        flex-shrink: 0;
+        font-size: 20px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+    .mentions .images {
+        position: relative;
+        width: 880px;
+        margin: 0;
+        // margin-right: -50px;
+        flex-shrink: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        align-items: center;
+    }
+}
+
 .mentions {
     padding: 100px 0 90px;
     background-color: #f9f9f9;
@@ -5,24 +48,11 @@
     color: #212121;
 }
 
-.mentions-holder {
-    display: flex;
-    align-items: center;
-    -webkit-box-align: center;
-}
-
 .mentions.animated .mentions-holder > * {
     transform: translateY(0);
 }
 
-.mentions .text {
-    text-align: left;
-    width: 290px;
-    flex-shrink: 0;
-    font-size: 20px;
-    margin-right: 40px;
-    padding-bottom: 40px;
-}
+
 
 .title-awards {
     font-size: 40px;
@@ -34,19 +64,7 @@
     padding-top: -10px;
 }
 
-.mentions .images {
-    position: relative;
-    width: 880px;
-    margin: 0;
-    // margin-right: -50px;
-    flex-shrink: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    align-items: center;
-}
+
 
 .mentions .images:before {
     left: 33.33%;

@@ -25,7 +25,7 @@ export default function HomePage(props: IHomePageProps) {
         </div>
         <OutWork />
         <NoCases />
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
         <MeetOurTeam />
         <DigitalInfo />
         <SliderAwards />

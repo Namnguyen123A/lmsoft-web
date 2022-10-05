@@ -26,9 +26,9 @@ function App() {
             </li>
             <li>
               <Link to="/recruitment"></Link>
-            </li>
+            {/* </li>
             <Link to="/about"></Link>
-            <li>
+            <li> */}
               <Link to="/contact"></Link>
             </li>
           </ul>
@@ -40,9 +40,9 @@ function App() {
             <Route path="/recruitment">
               <Recruitment />
             </Route>
-            <Route path="/about">
+            {/* <Route path="/about">
               <About />
-            </Route>
+            </Route> */}
             <Route path="/contact">
               <ContactToUs />
             </Route>

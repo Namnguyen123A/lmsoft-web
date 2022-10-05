@@ -367,7 +367,7 @@ svg:not(:root) {
 }
 .slides {
     background-color: transparent;
-    background-color:  hsl(0, 0%, 0%, 0);}
+}
 }
 
 @media (min-width: 1400px) {.button {

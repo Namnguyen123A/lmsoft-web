@@ -70,7 +70,7 @@ export default function About(props: IAboutProps) {
         <div className="container">
           <div className="images animate animated">
             <img src={image} className="boy girl"></img>
-          </div>
+           </div>
           <strong className="h2 animate animated">We strive to improve</strong>
           <ul className="features-list animate animated">
             {

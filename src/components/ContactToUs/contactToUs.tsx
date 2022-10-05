@@ -133,7 +133,7 @@ export default function ContactToUs(props: IContact) {
                         </h3>
                         <ul className="contacts-list" style={{fontSize: '24px'}}>
                             <li style={{marginBottom: '25px'}}><a href="">+84 903438731</a></li>
-                            <li style={{marginBottom: '25px'}}><a href="">LmSoft@gmail.com</a></li>
+                            <li style={{marginBottom: '25px'}}><a href="">Leo@lmsoft.vn</a></li>
                             <h5 className="section_contact">Offices</h5>
                         </ul>
                         <div className='office-list'>

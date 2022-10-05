@@ -1,4 +1,3 @@
-import kego from '../../assets/img/kego.svg'
 
 export const Data_Out_Work = [
     {

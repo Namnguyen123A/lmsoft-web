@@ -43,9 +43,9 @@ export default function Header (props: INavigationProps) {
             <a href="">Blog</a>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/about">About Us</Link>
-          </li>
+          </li> */}
 
         </ul>
         <li className="button-btn">
@@ -66,7 +66,7 @@ export default function Header (props: INavigationProps) {
           <li><Link to="/recruitment">Recruitment</Link></li>
           <li><Link to="/home">Technologies</Link></li>
           <li><Link to="/home">Blog</Link></li>
-          <li><Link to="/about">About Us</Link></li>
+          {/* <li><Link to="/about">About Us</Link></li> */}
         </ul>
       </div>
     </div>
