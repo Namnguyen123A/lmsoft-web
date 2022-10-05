@@ -10,11 +10,18 @@ import {
   Link,
 } from "react-router-dom";
 import ContactToUs from "./components/ContactToUs/contactToUs";
+import Contact from "./components/contact";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <div style={{textAlign: 'center', fontSize : '50px', color: 'red'}}>
+        is maintaining
+      </div>
+      <div>
+       <Contact />
+      </div>
+      {/* <Router>
       <Route exact path="/">
         <HomePage />
       </Route>
@@ -26,9 +33,6 @@ function App() {
             </li>
             <li>
               <Link to="/recruitment"></Link>
-            {/* </li>
-            <Link to="/about"></Link>
-            <li> */}
               <Link to="/contact"></Link>
             </li>
           </ul>
@@ -40,15 +44,12 @@ function App() {
             <Route path="/recruitment">
               <Recruitment />
             </Route>
-            {/* <Route path="/about">
-              <About />
-            </Route> */}
             <Route path="/contact">
               <ContactToUs />
             </Route>
           </Switch>
         </div>
-      </Router>
+      </Router> */}
     </div>
   );
 }
