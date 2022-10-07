@@ -34,3 +34,33 @@
         margin-bottom: 47px;
     }
 }
+
+@media screen and (max-width: 376px){
+    .digital-info h2 {
+        font-size: 32px;
+    }
+
+    .digital-info-list li {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .digital-info .features-info-list {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.87);
+        border-top: 1px solid #fff;
+        padding-top: 47px;
+        margin-top: 50px;
+        margin-bottom: 0;
+        text-align: center;
+        position: relative;
+    }
+
+    .digital-info .features-info-list li {
+        width: 100%;
+    }
+
+    .features-info-list .icon {
+        margin-bottom: 13px;
+    }
+}

@@ -2,7 +2,7 @@ import 'react-modal-video/scss/modal-video.scss';
 import rateOne from "../../assets/rate-01.png";
 import rateTwo from "../../assets/rate-02.png";
 import rateThree from "../../assets/rate-03.png";
-import star from "../../assets/star.png";
+import ImageRateStar from './imageStar';
 import "./style.scss";
 export interface IBannerprops {
 }
@@ -31,11 +31,11 @@ export default function Banner(props: IBannerprops) {
               <div className="rating">
                 <strong className="rating-title">Top Rated Status</strong>
                 <div className="stars">
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
                 </div>
               </div>
             </li>
@@ -48,11 +48,11 @@ export default function Banner(props: IBannerprops) {
               <div className="rating">
                 <strong className="rating-title">Our Rate 5 of 5</strong>
                 <div className="stars">
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
                 </div>
               </div>
             </li>
@@ -65,11 +65,11 @@ export default function Banner(props: IBannerprops) {
               <div className="rating">
                 <strong className="rating-title">Our Rate 5 of 5</strong>
                 <div className="stars">
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
-                  <img loading='lazy' src={star} className="img-banner" alt="img"></img>
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
+                  <ImageRateStar />
                 </div>
               </div>
             </li>

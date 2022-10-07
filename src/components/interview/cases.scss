@@ -1,6 +1,7 @@
 .no-cases {
     font-size: 20px;
     padding-bottom: 115px;
+    padding-top: 250px;
     text-align: center;
     color: #212121;
 }
@@ -15,4 +16,26 @@
     padding-top: 30px;
     line-height: 1.4;
     margin-bottom: 13px;
+}
+
+.no-cases .button {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 376px){
+    .no-cases {
+        padding-top: 60px;
+    }
+    
+    .no-cases .h2 {
+        font-size: 30px;
+    }
+    
+    .no-cases p {
+        font-size: 16px;
+    }
+
+    .no-cases .button {
+        padding-top: 15px;
+    }
 }

@@ -3,7 +3,7 @@ export default function OurWorkItem(props:any) {
     const { color, src, alt, info } = props.item;
     const { dataSrc, title, tags, description, href } = info;
     return (
-        <div className="section slides" style={{ backgroundColor: `${color} `, height: '798px'}} data-background={color}
+        <div className="section slides" style={{ backgroundColor: `${color} `, }} data-background={color}
             data-theme="header-dark">
             <div className="container">
                 <div className="image">
@@ -12,7 +12,7 @@ export default function OurWorkItem(props:any) {
                         alt={alt} />
                 </div>
 
-                <div className="info" style={{width: '45%'}}>
+                <div className="info">
                     <div className="title">
                         <div className="icon">
                             <img loading="lazy" alt="" style={{height: '100px'}}

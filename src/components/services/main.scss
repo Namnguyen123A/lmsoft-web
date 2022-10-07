@@ -17,12 +17,15 @@ li .active {
 
 .services-info-list .icon-holder {
     background-color: #f7f9fb;
-    padding: 35px 20px;
+    padding: 20px 40px 10px;
     display: flex;
+    -webkit-box-pack: center;
     align-items: center;
     transition: transform .3s;
     padding-top: 10px;
+    text-align: center;
 }
+
 
 // .learn {
 //     padding-top: 2px;
@@ -37,6 +40,9 @@ li .active {
     padding-left: 5px;
 }
 
+.services-tabs .tabs-nav li {
+    padding: 0 5px 10px;
+}
 @media screen and (max-width: 1199px){
     .services-info-list {
         display: flex;
@@ -61,4 +67,31 @@ li .active {
         font-size: 24px;
         margin-bottom: 40px;
     }
+}
+
+@media screen and (max-width: 376px){
+    .services-tabs .tab-title {
+        font-size: 16px;
+    }
+
+    .services-tabs ul {
+        margin-bottom: 0;
+    }
+
+    .tabs-nav li {
+        margin-bottom: 20px;
+    }
+
+    .services-info-list .item {
+        text-align: center;
+    }
+
+    .text-decrision {
+        font-size: 14px;
+    }
+
+    .services-tabs .tabs-nav li {
+        font-size: 12px;
+    }
+    
 }

@@ -198,11 +198,6 @@ export default function About(props: IAboutProps) {
         <div className="container">
           <div className="testimonials">
             <Slider {...settings}
-              // dots={true}
-              // slidesToShow={1}
-              // slidesToScroll={1}
-              // autoplay={false}
-              // autoplaySpeed={3000}
             >
               {renderSlides()}
             </Slider>

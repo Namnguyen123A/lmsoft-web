@@ -16,19 +16,20 @@ export default function TestimonialsSection() {
         slidesToShow: 1,
         speed: 500,
         slidesToScroll: 1,
-        dots: true,
         responsive: [
           {
             breakpoint: 1199,
             settings: {
               arrows: false,
+              dots: true,
             },
           },
           {
-            breakpoint: 480,
+            breakpoint: 376,
             settings: {
               arrows: false,
               slidesToShow: 1,
+              dots: false,
             },
           },
         ],

@@ -19,20 +19,6 @@ function App() {
         <HomePage />
       </Route>
       <div>
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/home"></Link>
-            </li>
-            <li>
-              <Link to="/recruitment"></Link>
-            </li>
-            <Link to="/about"></Link>
-            <li>
-              <Link to="/contact"></Link>
-            </li>
-          </ul>
-        </nav> */}
           <Switch>
             <Route path="/home">
               <HomePage />

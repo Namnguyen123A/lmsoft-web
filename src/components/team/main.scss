@@ -3,6 +3,10 @@
     padding-bottom: 150px;
 }
 
+.meet-our-team .button {
+    padding-top: 15px;
+}
+
 .meet-our-team .photo {
     bottom: -150px;
 }
@@ -36,5 +40,32 @@
 
     .short-info p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .meet-our-team .short-info {
+        padding-bottom: 40px;
+        max-width: 530px;
+        width: 100%;
+    }
+    
+    .meet-our-team h2 {
+        line-height: 1.35;
+        margin-bottom: 16px;
+        font-size: 32px;
+    }
+
+    .meet-our-team p {
+        margin-bottom: 30px;
+    }
+
+    .meet-our-team .photo {
+        position: relative;
+        right: 0;
+    }
+
+    .meet-our-team .button {
+        padding-top: 15px;
     }
 }

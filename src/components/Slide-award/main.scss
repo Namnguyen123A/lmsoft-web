@@ -134,3 +134,15 @@
         top: 50px;
     }
 }
+
+@media screen and (max-width: 376px){
+    .mentions .images::before {
+        top: 40px;
+        left: 20px;
+    }
+
+    .mentions .images::after {
+        top: 40px;
+        right: 20px;
+    }
+}

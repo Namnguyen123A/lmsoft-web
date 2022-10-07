@@ -1,91 +1,74 @@
 .section-contact-us {
     background: #f4f7fe;
     padding-top: 50px;
-}
-
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.form-contacts-us {
-    max-width: 570px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    width: 100%;
-}
-
-.contact-us {
-    padding-top: 180px;
-}
-
-.form {
-    margin: 0;
-    padding: 0;
-}
-
-.title-contact {
-    display: block;
-    color: #18227B;
-    letter-spacing: -.2px;
-    font-size: 48px;
-    margin-bottom: 30px;
-    line-height: 64px;
-}
-
-// form input
-
-.form-contacts-total {
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 8px;
-}
-
-.form-contacts-row {
-    margin: 0 -10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.form-contacts .group {
-    margin-bottom: 0 !important;
-}
-
-.form-contacts .lg {
-
-}
-
-.form-contacts {
-    padding: 0 10px 24px;
-}
-
-.group {
-    position: relative;
-    width: 100%;
-}
-
-.form-contacts-wrap {
-    padding: 0 !important;
-    margin: 0;
-    position: relative;
-    display: block;
-}
-
-.form-full {
-    padding: 0 !important;
-    margin: 0;
-    position: relative;
-    display: block;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color:#18227B;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        .contact-us {
+            padding-top: 180px;
+            
+        }
+        .form-contacts-us {
+            max-width: 570px;
+            margin-top: 100px;
+            padding-bottom: 50px;
+            width: 100%;
+            .form {
+                margin: 0;
+                padding: 0;
+                .title-contact {
+                    display: block;
+                    color: #18227B;
+                    letter-spacing: -.2px;
+                    font-size: 48px;
+                    margin-bottom: 30px;
+                    line-height: 64px;
+                }
+            }
+            .form-contacts-total {
+                background-color: transparent;
+                border: none;
+                margin: 0;
+                padding: 0;
+                border-radius: 8px;
+                .form-contacts-row {
+                    margin: 0 -10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .form-contacts .group {
+                        margin-bottom: 0 !important;
+                        .form-contacts-wrap {
+                            padding: 0 !important;
+                            margin: 0;
+                            position: relative;
+                            display: block;
+                            .form-full {
+                                padding: 0 !important;
+                                margin: 0;
+                                position: relative;
+                                display: block;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 16px;
+                                color:#18227B;
+                            }
+                        }
+                    }
+                    .form-contacts {
+                        padding: 0 10px 24px;
+                    }
+                    
+                    .group {
+                        position: relative;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .form-contacts-input-one {
@@ -240,5 +223,28 @@
     }
     .send-btn {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .form-contacts-us {
+        margin-top: 0;
+    }
+    
+    .title-contact {
+        font-size: 32px;
+    }
+    
+    .botton-valid {
+        width: 100%;
+    }
+
+    .form-contacts {
+        padding: 0 10px 12px;
+    }
+
+    .form-contacts-col {
+        width: 100%;
+        margin-bottom: 12px;
     }
 }

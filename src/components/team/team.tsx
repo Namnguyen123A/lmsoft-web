@@ -3,7 +3,7 @@ import "./main.scss"
 
 export default function MeetOurTeam() {
     return (
-        <div className="section meet-our-team animate" data-background="#ffffff" data-theme="header-white">
+        <div className=" meet-our-team animate" data-background="#ffffff" data-theme="header-white">
             <div className="container">
                 <div className="short-info">
                     <strong className="block-title">Our team</strong>

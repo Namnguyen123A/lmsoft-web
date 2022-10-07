@@ -155,5 +155,53 @@
     text-align: center;
 }
 
+.relationships .button {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 376px){
+    .relationships h2 {
+        font-size: 32px;
+    }
+
+    .relationships p {
+        font-size: 16px;
+    }
+
+    .trust-us-slider .info {
+        display: none;
+    }
+
+    .trust-us-slider .play-video {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #434eea;
+    animation: pulse 2s infinite;
+    }
+
+    .trust-us-slider .play-video:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 18px solid #fff;
+    }
+
+    .relationships .button {
+        padding-top: 15px;
+    }
+}
+
 
 

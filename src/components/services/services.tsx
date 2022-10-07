@@ -10,9 +10,9 @@ import NicheItem from "./nicheItem";
 import "./main.scss"
 
 export default function ServicesTabs() {
-
+    
     return (
-        <div className="section services-tabs animate" data-background="#ffffff" data-theme="header-white">
+        <div className="services-tabs animate" data-background="#ffffff" data-theme="header-white">
             <div className="container">
                 <div className="tabs--holder">
                     <ul className="tabs-nav">

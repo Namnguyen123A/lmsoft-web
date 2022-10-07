@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     vertical-align: top;
     width: 33.33%;
     border-bottom: 1px solid #dae0e6;
-    font-size: 13px;
+    /* font-size: 13px; */
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
